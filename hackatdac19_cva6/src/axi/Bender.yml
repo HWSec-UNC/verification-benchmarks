@@ -1,0 +1,34 @@
+package:
+  name: axi
+  authors: ["Fabian Schuiki <fschuiki@iis.ee.ethz.ch>"]
+
+dependencies:
+  common_cells: { git: "https://github.com/pulp-platform/common_cells.git", version: 1.7.5 }
+
+sources:
+  - src/axi_pkg.sv
+  - target: test
+    files:
+      - src/axi_test.sv
+      - test/tb_axi_id_remap.sv
+      - test/tb_axi_delayer.sv
+  - src/axi_intf.sv
+
+  - src/axi_arbiter.sv
+  - src/axi_address_resolver.sv
+
+  - src/axi_to_axi_lite.sv
+  - src/axi_lite_to_axi.sv
+  - src/axi_lite_xbar.sv
+  - src/axi_lite_cut.sv
+  - src/axi_lite_multicut.sv
+  - src/axi_lite_join.sv
+
+  - src/axi_cut.sv
+  - src/axi_multicut.sv
+  - src/axi_join.sv
+  - src/axi_modify_address.sv
+
+  - src/axi_delayer.sv
+
+  - src/axi_id_remap.sv
