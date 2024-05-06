@@ -7,30 +7,30 @@ These properties are first described in [_anonymized submission_]. As part of th
 
 | Paper Title | Paper Type | Citation |
 |---|:---:|:---:|
-| HardFails: Insights into Software-Exploitable Hardware Bugs | FV | [15] |
-| RTL-ConTest: Concolic Testing on RTL for Detecting Security Vulnerabilities | FV | [43] |
-| End-to-End Automated Exploit Generation for Validating the Security of Processor Designs | FV | [70] |
-| Design of Access Control Mechanisms in Systems-on-Chip with Formal Integrity Guarantees | FV | [41] |
-| DIVAS: An LLM-based End-to-End Framework for SoC Security Analysis and Policy-based Protection | PG | [51] |
-| A Formal Approach to Confidentiality Verification in SoCs at the Register Transfer Level | FV | [48] |
-| Isadora: automated information-flow property generation for hardware security verification | PG | [17] |
-| Transys: Leveraging Common Security Properties Across Hardware Designs | PG | [72] |
-| SPECS: A Lightweight Runtime Mechanism for Protecting Software from Security-Critical Processor Bugs | FV | [33] |
-| AGILE: Automated Assertion Generation to Detect Information Leakage Vulnerabilities | FV + PG | [20] |
-| SoC Security Verification using Property Checking | FV | [24] |
-| Evaluating Security Specification Mining for a CISC Architecture | PG | [18] |
-| Fault Attacks on Access Control in Processors: Threat, Formal Analysis and Microarchitectural Mitigation | FV | [3] |
-| LLM-assisted Generation of Hardware Assertions | PG | [38] |
-| HUnTer: Hardware Underneath Trigger for Exploiting SoC-level Vulnerabilities | FV | [54] |
-| Sylvia: Countering the Path Explosion Problem in the Symbolic Execution of Hardware Designs | FV | [57] |
-| Countering the Path Explosion Problem in the Symbolic Execution of Hardware Designs | FV | [56] |
-| Applying Unique Program Execution Checking in the development flow of industrial IoT devices to prevent vulnerabilities for side-channel attacks | FV | [62] |
-| Mining Secure Behavior of Hardware Designs | PG | [16] |
-| Unique Program Execution Checking: A Novel Approach for Formal Security Analysis of Hardware | FV | [52] |
-| Unlocking Hardware Security Assurance: The Potential of LLMs | PG | [44] |
-| Exploring the Abyss? Unveiling Systems-on-Chip Hardware Vulnerabilities Beneath Software | FV | [53] |
-| Ensuring Hardware Robustness via Security Verification | FV | [42] |
-| WASIM: A Word-level Abstract Symbolic Simulation Framework for Hardware Formal Verification | FV | [21] |
+| HardFails: Insights into software-exploitable hardware bugs | FV | [15] |
+| RTL-ConTest: Concolic testing on RTL for detecting security vulnerabilities | FV | [43] |
+| End-to-End automated exploit generation for validating the security of processor designs | FV | [70] |
+| Design of access control mechanisms in Systems-on-Chip with formal integrity guarantees | FV | [41] |
+| DIVAS: An LLM-based end-to-end framework for SoC security analysis and policy-based protection | PG | [51] |
+| A Formal approach to confidentiality verification in SoCs at the register transfer level | FV | [48] |
+| Isadora: Automated information-flow property generation for hardware security verification | PG | [17] |
+| Transys: Leveraging common security properties across hardware designs | PG | [72] |
+| SPECS: A lightweight runtime mechanism for protecting software from security-critical processor bugs | FV | [33] |
+| AGILE: Automated assertion generation to detect information leakage vulnerabilities | FV + PG | [20] |
+| SoC security verification using property checking | FV | [24] |
+| Evaluating security specification mining for a CISC architecture | PG | [18] |
+| Fault attacks on access control in processors: Threat, formal analysis and microarchitectural mitigation | FV | [3] |
+| LLM-assisted generation of hardware assertions | PG | [38] |
+| HUnTer: Hardware underneath trigger for exploiting SoC-level vulnerabilities | FV | [54] |
+| Sylvia: Countering the path explosion problem in the symbolic execution of hardware designs | FV | [57] |
+| Countering the path explosion problem in the symbolic execution of hardware designs | FV | [56] |
+| Applying unique program execution checking in the development flow of industrial IoT devices to prevent vulnerabilities for side-channel attacks | FV | [62] |
+| Mining secure behavior of hardware designs | PG | [16] |
+| Unique program execution checking: A novel approach for formal security analysis of hardware | FV | [52] |
+| Unlocking hardware security assurance: The potential of LLMs | PG | [44] |
+| Exploring the abyss? Unveiling Systems-on-Chip hardware vulnerabilities beneath software | FV | [53] |
+| Ensuring hardware robustness via security verification | FV | [42] |
+| WASIM: A aord-level abstract symbolic simulation framework for hardware formal verification | FV | [21] |
 | Register transfer level information flow tracking for provably secure hardware design | FV | [4] |
 | Hardware verification using software analyzers | FV | [47] |
 | Property specific information flow analysis for hardware security verification | FV | [36] |
