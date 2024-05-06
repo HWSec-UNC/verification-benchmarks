@@ -9,12 +9,12 @@ These properties are first described in [_anonymized submission_]. As part of th
 |---|:---:|:---:|
 | HardFails: Insights into software-exploitable hardware bugs | FV | [15] |
 | RTL-ConTest: Concolic testing on RTL for detecting security vulnerabilities | FV | [43] |
-| End-to-End automated exploit generation for validating the security of processor designs | FV | [70] |
+| End-to-End automated exploit generation for validating the security of processor designs | FV | [69] |
 | Design of access control mechanisms in Systems-on-Chip with formal integrity guarantees | FV | [41] |
 | DIVAS: An LLM-based end-to-end framework for SoC security analysis and policy-based protection | PG | [51] |
 | A Formal approach to confidentiality verification in SoCs at the register transfer level | FV | [48] |
 | Isadora: Automated information-flow property generation for hardware security verification | PG | [17] |
-| Transys: Leveraging common security properties across hardware designs | PG | [72] |
+| Transys: Leveraging common security properties across hardware designs | PG | [71] |
 | SPECS: A lightweight runtime mechanism for protecting software from security-critical processor bugs | FV | [33] |
 | AGILE: Automated assertion generation to detect information leakage vulnerabilities | FV + PG | [20] |
 | SoC security verification using property checking | FV | [24] |
@@ -24,7 +24,7 @@ These properties are first described in [_anonymized submission_]. As part of th
 | HUnTer: Hardware underneath trigger for exploiting SoC-level vulnerabilities | FV | [54] |
 | Sylvia: Countering the path explosion problem in the symbolic execution of hardware designs | FV | [57] |
 | Countering the path explosion problem in the symbolic execution of hardware designs | FV | [56] |
-| Applying unique program execution checking in the development flow of industrial IoT devices to prevent vulnerabilities for side-channel attacks | FV | [62] |
+| Applying unique program execution checking in the development flow of industrial IoT devices to prevent vulnerabilities for side-channel attacks | FV | [61] |
 | Mining secure behavior of hardware designs | PG | [16] |
 | Unique program execution checking: A novel approach for formal security analysis of hardware | FV | [52] |
 | Unlocking hardware security assurance: The potential of LLMs | PG | [44] |
@@ -34,4 +34,4 @@ These properties are first described in [_anonymized submission_]. As part of th
 | Register transfer level information flow tracking for provably secure hardware design | FV | [4] |
 | Hardware verification using software analyzers | FV | [47] |
 | Property specific information flow analysis for hardware security verification | FV | [36] |
-| Automated test generation for activation of assertions in RTL models | FV | [60] |
+| Automated test generation for activation of assertions in RTL models | FV | [40] |
