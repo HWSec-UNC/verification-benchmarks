@@ -3,7 +3,7 @@ This reposititory contains security properties for the formal verification of op
 
 We encourage the community to contribute new properties and pull requests are welcome!
 
-These properties are first described in [_anonymized submission_]. As part of that submission, we describe a literature review of papers related to formal properties in hardware security verification. The papers included in that literature review are listed here.
+These properties are first described in [_anonymized submission_]. As part of that submission, we describe a literature review of papers related to formal properties in hardware security verification. The papers included in that literature review are listed here. The citation number corresponds to the paper's References section. FV indicates papers that perform formal verification. PG indicates papers that perform automated property generation.
 
 | Paper Title | Paper Type | Citation |
 |---|:---:|:---:|
