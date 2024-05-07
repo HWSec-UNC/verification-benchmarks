@@ -1,0 +1,34 @@
+CAPI=2:
+name: openpiton::chip_bridge:0.1
+description: chip_bridge testbench
+
+filesets:
+    rtl:
+        files:
+            - sync_fifo.v
+            - chip_bridge_rcv_32.v
+            - chip_bridge_send_32.v
+            - chip_net_chooser_32.v
+            - chip_bridge.v
+        depend:
+            - openpiton::piton_include
+            - openpiton::piton_common
+        file_type: verilogSource-2001
+
+targets:
+    default:
+        filesets: [rtl]
+    pickle:
+        default_tool: icarus
+        filesets: [rtl]
+        toplevel: [chip_bridge]
+        tools:
+            icarus:
+                iverilog_options: [-g 2001 -E]
+    verify:
+        default_tool: icarus
+        filesets: [rtl]
+        toplevel: [chip_bridge]
+        tools:
+            icarus:
+                iverilog_options: [-g 2001]

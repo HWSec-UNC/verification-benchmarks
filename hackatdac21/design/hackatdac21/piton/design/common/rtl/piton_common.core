@@ -1,0 +1,23 @@
+CAPI=2:
+name: openpiton::piton_common:0.1
+description: Top-level Piton common files
+
+filesets:
+    rtl:
+        files:
+            - async_fifo.v
+            - bram_1r1w_wrapper.v
+            - bram_1rw_wrapper.v
+            - synchronizer.v
+        file_type: verilogSource
+
+targets:
+    default:
+        filesets: [rtl]
+    pickle:
+        default_tool: icarus
+        filesets: [rtl]
+        toplevel: [async_fifo]
+        tools:
+            icarus:
+                iverilog_options: [-g 2001 -E]

@@ -1,0 +1,39 @@
+# Copyright (c) 2017 Princeton University
+# All rights reserved.
+#
+# Redistribution and use in source and binary forms, with or without
+# modification, are permitted provided that the following conditions are met:
+#     * Redistributions of source code must retain the above copyright
+#       notice, this list of conditions and the following disclaimer.
+#     * Redistributions in binary form must reproduce the above copyright
+#       notice, this list of conditions and the following disclaimer in the
+#       documentation and/or other materials provided with the distribution.
+#     * Neither the name of Princeton University nor the
+#       names of its contributors may be used to endorse or promote products
+#       derived from this software without specific prior written permission.
+#
+# THIS SOFTWARE IS PROVIDED BY PRINCETON UNIVERSITY "AS IS" AND
+# ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+# WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+# DISCLAIMED. IN NO EVENT SHALL PRINCETON UNIVERSITY BE LIABLE FOR ANY
+# DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+# (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+# LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
+# ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+# (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+# SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+# Format:
+# BlockID                   BlockPath                           Supported Board,Frequency(MHz),DDRSize(Mbytes)
+piton_aws                   ../../build/f1/piton_aws/design                         f1,62.5,4096
+system                      .                                                       vc707,60,1024;genesys2,66.667,1024;nexysVideo,30,512;vcu118,100,2048;xupp3r,60,32768
+chipset                     chipset                                                 genesys2,66.667,1024;piton_board,50,0
+passthru                    passthru                                                piton_board,100,0
+passthru_loopback           fpga_tests/passthru_loopback                            piton_board,100,0
+chip                        chip                                                    genesys2,66.667,1024
+chip_bridge_test_fpga       fpga_tests/chip_bridge_test/chip_bridge_test_fpga       genesys2,66.667,1024;piton_board,50,0
+chip_bridge_test_chip       fpga_tests/chip_bridge_test/chip_bridge_test_chip       genesys2,66.667,1024;piton_board,50,0
+memctrl_test                fpga_tests/memio_unit_tests/memctrl_test                genesys2,100,1024
+sdctrl_test                 fpga_tests/memio_unit_tests/sdctrl_test                 genesys2,100,1024
+piton_static_power          piton_tests/power/piton_static_power                    piton_board,100,0
+piton_reset_power           piton_tests/power/piton_reset_power                     piton_board,100,0
+piton_idle_power            piton_tests/power/piton_idle_power                      piton_board,100,0

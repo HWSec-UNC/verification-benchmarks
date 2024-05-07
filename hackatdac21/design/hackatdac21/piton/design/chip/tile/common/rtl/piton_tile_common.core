@@ -1,0 +1,33 @@
+CAPI=2:
+name: openpiton::piton_tile_common:0.1
+description: Top-level Piton Tile common files
+
+filesets:
+    rtl:
+       files:
+           - clk_gating_latch.v
+           - credit_to_valrdy.v
+           - m1.beh.v
+           - mul64.v
+           - swrvr_clib.v  
+           - swrvr_dlib.v  
+           - test_stub_scan.v
+           - u1.beh.v
+           - ucb_bus_in.v
+           - ucb_bus_out.v
+           - valrdy_to_credit.v
+       depend:
+           - openpiton::preprocessor
+       file_type: verilogSource
+
+targets:
+    default:
+        filesets: [rtl]
+        generate: [pyhp_preprocess]
+
+generate:
+    pyhp_preprocess:
+        generator: pyhp_preprocess_gen
+        parameters:
+            process_me : [[flat_id_to_xy.v.pyv, flat_id_to_xy.tmp.v],
+                          [xy_to_flat_id.v.pyv, xy_to_flat_id.tmp.v]]

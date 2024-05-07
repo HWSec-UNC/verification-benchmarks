@@ -1,0 +1,31 @@
+#!/bin/bash
+# Copyright 2018 ETH Zurich and University of Bologna.
+# Copyright and related rights are licensed under the Solderpad Hardware
+# License, Version 0.51 (the "License"); you may not use this file except in
+# compliance with the License.  You may obtain a copy of the License at
+# http://solderpad.org/licenses/SHL-0.51. Unless required by applicable law
+# or agreed to in writing, software, hardware and materials distributed under
+# this License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR
+# CONDITIONS OF ANY KIND, either express or implied. See the License for the
+# specific language governing permissions and limitations under the License.
+#
+# Author: Michael Schaffner <schaffner@iis.ee.ethz.ch>, ETH Zurich
+# Date: 15.08.2018
+# Description: compilation script for rv64 targets
+#
+# The first argument is the path to the c program to be compiled, 
+# second argument can be used to pass additional arguments to GCC.
+
+# Todo: upgrade from IMAC -> IMACFD when FP is available
+RISCV_GCC=riscv64-unknown-elf-gcc
+RISCV_GCC_OPTS="-march=rv64imac -mabi=lp64 -DPREALLOCATE=1 -mcmodel=medany -static -std=gnu99 -O2 -fno-common -fno-builtin-printf $2"
+RISCV_LINK_OPTS="-static -nostdlib -nostartfiles -lm -lgcc -T ${DV_ROOT}/verif/diag/assembly/include/riscv/ariane/link.ld"
+
+# $(src_dir)/../env -I$(src_dir)/common $(addprefix -I$(src_dir)/, $(bmarks))
+INCS="-I${DV_ROOT}/verif/diag/assembly/include/riscv/ariane"
+
+${RISCV_GCC} ${INCS} ${RISCV_GCC_OPTS} -o diag.exe $1                        \
+             ${DV_ROOT}/verif/diag/assembly/include/riscv/ariane/syscalls.c  \
+             ${DV_ROOT}/verif/diag/assembly/include/riscv/ariane/crt.S       \
+             ${RISCV_LINK_OPTS}
+

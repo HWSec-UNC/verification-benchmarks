@@ -1,0 +1,45 @@
+CAPI=2:
+name: openpiton::dynamic_node:0.1
+description: Top-level Dynamic Node
+
+filesets:
+    rtl:
+        files:
+            - dynamic_node_top_wrap.v
+            - dynamic_node_top.v
+        depend:
+            - openpiton::dynamic_node_components
+            - openpiton::dynamic_node_dynamic
+            - openpiton::dynamic_node_common
+            - openpiton::piton_include
+        file_type: verilogSource
+
+targets:
+    default:
+        filesets: [rtl]
+        generate: [pyhp_preprocess]
+
+    pickle:
+        default_tool: icarus
+        filesets: [rtl]
+        generate: [pyhp_preprocess]
+        toplevel: [dynamic_node_top]
+        tools:
+            icarus:
+                iverilog_options: [-g 2001 -E]
+
+    verify:
+        default_tool: icarus
+        filesets: [rtl]
+        generate: [pyhp_preprocess]
+        toplevel: [dynamic_node_top]
+        tools:
+            icarus:
+                iverilog_options: [-g 2001]
+
+generate:
+    pyhp_preprocess:
+        generator: pyhp_preprocess_gen
+        parameters:
+            process_me : [[dynamic_node_top_wrap_para.v.pyv, dynamic_node_top_wrap_para.tmp.v],
+                          [dynamic_node_top_para.v.pyv, dynamic_node_top_para.tmp.v]]
