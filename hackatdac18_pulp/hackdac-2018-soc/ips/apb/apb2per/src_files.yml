@@ -1,0 +1,4 @@
+apb2per:
+  files: [
+    apb2per.sv,
+  ]

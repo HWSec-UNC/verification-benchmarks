@@ -1,0 +1,287 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/grads/p/prh537/hackdac/pulpissimo/sim
+YCPI
+Z1 DXx6 sv_std 3 std 0 22 >9az<^>2ff9DAl3OFGaAf1
+Z2 !s110 1529613397
+!i10b 1
+!s100 cii`=3J=jTNbkcCH?<13g0
+IMkze<TZUAl8VKP_l3;]eI3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 !s105 dev_dpi_sv_unit
+S1
+R0
+Z5 w1527484250
+Z6 8../rtl/tb/dev_dpi/dev_dpi.sv
+Z7 F../rtl/tb/dev_dpi/dev_dpi.sv
+L0 36
+Z8 OL;L;10.7;67
+r1
+!s85 0
+31
+Z9 !s108 1529613397.000000
+Z10 !s107 ../rtl/tb/tb_pulp.sv|../rtl/tb/dev_dpi/dev_dpi.sv|../rtl/tb/tb_fs_handler.sv|../rtl/tb/tb_clk_gen.sv|../rtl/tb/dbg_pkg.sv|../rtl/tb/jtag_pkg.sv|
+Z11 !s90 -quiet|-sv|-work|/home/grads/p/prh537/hackdac/pulpissimo/sim/modelsim_libs/tb_lib|-suppress|2583|../rtl/tb/jtag_pkg.sv|../rtl/tb/dbg_pkg.sv|../rtl/tb/tb_clk_gen.sv|../rtl/tb/tb_fs_handler.sv|../rtl/tb/dev_dpi/dev_dpi.sv|../rtl/tb/tb_pulp.sv|
+!i113 0
+Z12 o-suppress 2583 -quiet -sv -work /home/grads/p/prh537/hackdac/pulpissimo/sim/modelsim_libs/tb_lib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z13 tCvgOpt 0
+n@c@p@i
+Xdbg_pkg
+R1
+Z14 DXx4 work 8 jtag_pkg 0 22 46?`ZI@>6]8`zWYGenf:B1
+R2
+!i10b 1
+!s100 Ab:XI=h7@Zfm3Hin<emZO1
+I[kKT??Ng0fz6Z65>MXA?Z3
+V[kKT??Ng0fz6Z65>MXA?Z3
+S1
+R0
+w1528230784
+8../rtl/tb/dbg_pkg.sv
+F../rtl/tb/dbg_pkg.sv
+Z15 L0 17
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R13
+vdev_dpi
+R1
+R2
+!i10b 1
+!s100 8]S>mWTSj:nfcf^RXl6Tj2
+I94GS]1lBc^G9ejE]zmf8]3
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 49
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R13
+YGPIO
+R1
+R2
+!i10b 1
+!s100 9JKmnn`89K0Eab^Z05jof3
+IH_;BL]1DIf2POj2_@7[Zi3
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 43
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R13
+n@g@p@i@o
+YI2S
+R1
+R2
+!i10b 1
+!s100 IAX]K1ozk::WOQGVY;R0>2
+IE[?05n^99cNd9JQ`XAWn91
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 28
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R13
+n@i2@s
+YJTAG
+R1
+R2
+!i10b 1
+!s100 `Q1AoNiFQkcSBCZBcl:z72
+IJb>6>0JIDA?Z]]jQ;dBgX0
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 22
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R13
+n@j@t@a@g
+Xjtag_pkg
+R1
+R2
+!i10b 1
+!s100 SCfO[S;hS40S@R:[04am22
+I46?`ZI@>6]8`zWYGenf:B1
+V46?`ZI@>6]8`zWYGenf:B1
+S1
+R0
+R5
+8../rtl/tb/jtag_pkg.sv
+F../rtl/tb/jtag_pkg.sv
+R15
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R13
+vtb_clk_gen
+R1
+R2
+!i10b 1
+!s100 NA2<LJa2DNA:e<=NAoXR03
+I5hmTY?=V@V=<2c`mJOaZd1
+R3
+!s105 tb_clk_gen_sv_unit
+S1
+R0
+R5
+8../rtl/tb/tb_clk_gen.sv
+F../rtl/tb/tb_clk_gen.sv
+R15
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R13
+vtb_fs_handler
+R1
+R2
+!i10b 1
+!s100 CQ]31k<noaBkfb00A=9J:2
+IjoQnA>UkclMTGkcJB>P[h0
+R3
+Z16 !s105 tb_fs_handler_sv_unit
+S1
+R0
+Z17 w1529093913
+Z18 8../rtl/tb/tb_fs_handler.sv
+Z19 F../rtl/tb/tb_fs_handler.sv
+L0 26
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R13
+vtb_fs_handler_debug
+R1
+R2
+!i10b 1
+!s100 hDEfR0@1UJfliYlKi6H<M1
+Il8Fc07zKX[D55Yo>L;nFj2
+R3
+R16
+S1
+R0
+R17
+R18
+R19
+L0 233
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R13
+vtb_pulp
+R1
+R14
+DXx4 work 7 dbg_pkg 0 22 [kKT??Ng0fz6Z65>MXA?Z3
+R2
+!i10b 1
+!s100 @J8aN0AX;Rf0I_FdDCTF=1
+Im<bkzcTe4e8VA`nJ5l3KM3
+R3
+!s105 tb_pulp_sv_unit
+S1
+R0
+w1529093804
+8../rtl/tb/tb_pulp.sv
+F../rtl/tb/tb_pulp.sv
+L0 25
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R13
+Tvopt_tb
+!s110 1529613398
+VfNe0OK2aVH8FA?NUQIa7f2
+04 7 4 work tb_pulp fast 0
+o+acc=mnpr -floatparameters+tb_pulp -L /home/grads/p/prh537/hackdac/pulpissimo/sim/modelsim_libs/L2_tcdm_hybrid_interco_lib -L /home/grads/p/prh537/hackdac/pulpissimo/sim/modelsim_libs/adv_dbg_if_lib -L /home/grads/p/prh537/hackdac/pulpissimo/sim/modelsim_libs/apb2per_lib -L /home/grads/p/prh537/hackdac/pulpissimo/sim/modelsim_libs/apb_adv_timer_lib -L /home/grads/p/prh537/hackdac/pulpissimo/sim/modelsim_libs/apb_fll_if_lib -L /home/grads/p/prh537/hackdac/pulpissimo/sim/modelsim_libs/apb_gpio_lib -L /home/grads/p/prh537/hackdac/pulpissimo/sim/modelsim_libs/apb_node_lib -L /home/grads/p/prh537/hackdac/pulpissimo/sim/modelsim_libs/apb_interrupt_cntrl_lib -L /home/grads/p/prh537/hackdac/pulpissimo/sim/modelsim_libs/axi_node_lib -L /home/grads/p/prh537/hackdac/pulpissimo/sim/modelsim_libs/axi_slice_lib -L /home/grads/p/prh537/hackdac/pulpissimo/sim/modelsim_libs/axi_slice_dc_lib -L /home/grads/p/prh537/hackdac/pulpissimo/sim/modelsim_libs/timer_unit_lib -L /home/grads/p/prh537/hackdac/pulpissimo/sim/modelsim_libs/common_cells_lib -L /home/grads/p/prh537/hackdac/pulpissimo/sim/modelsim_libs/fpu_lib -L /home/grads/p/prh537/hackdac/pulpissimo/sim/modelsim_libs/jtag_pulp_lib -L /home/grads/p/prh537/hackdac/pulpissimo/sim/modelsim_libs/riscv_lib -L /home/grads/p/prh537/hackdac/pulpissimo/sim/modelsim_libs/zero_riscy_lib -L /home/grads/p/prh537/hackdac/pulpissimo/sim/modelsim_libs/scm_lib -L /home/grads/p/prh537/hackdac/pulpissimo/sim/modelsim_libs/generic_FLL_lib -L /home/grads/p/prh537/hackdac/pulpissimo/sim/modelsim_libs/tech_cells_generic_lib -L /home/grads/p/prh537/hackdac/pulpissimo/sim/modelsim_libs/udma_core_lib -L /home/grads/p/prh537/hackdac/pulpissimo/sim/modelsim_libs/udma_uart_lib -L /home/grads/p/prh537/hackdac/pulpissimo/sim/modelsim_libs/udma_i2c_lib -L /home/grads/p/prh537/hackdac/pulpissimo/sim/modelsim_libs/udma_i2s_lib -L /home/grads/p/prh537/hackdac/pulpissimo/sim/modelsim_libs/udma_qspi_lib -L /home/grads/p/prh537/hackdac/pulpissimo/sim/modelsim_libs/udma_sdio_lib -L /home/grads/p/prh537/hackdac/pulpissimo/sim/modelsim_libs/udma_camera_lib -L /home/grads/p/prh537/hackdac/pulpissimo/sim/modelsim_libs/hwpe_ctrl_lib -L /home/grads/p/prh537/hackdac/pulpissimo/sim/modelsim_libs/hwpe_stream_lib -L /home/grads/p/prh537/hackdac/pulpissimo/sim/modelsim_libs/hwpe_mac_engine_lib -L /home/grads/p/prh537/hackdac/pulpissimo/sim/modelsim_libs/pulp_soc_lib -L /home/grads/p/prh537/hackdac/pulpissimo/sim/modelsim_libs/tb_lib -L /home/grads/p/prh537/hackdac/pulpissimo/sim/modelsim_libs/vip_lib -L /home/grads/p/prh537/hackdac/pulpissimo/sim/modelsim_libs/pulpissimo_lib -work work
+R13
+nvopt_tb
+OL;O;10.7;67

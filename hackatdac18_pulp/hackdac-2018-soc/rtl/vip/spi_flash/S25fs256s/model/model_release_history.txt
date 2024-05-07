@@ -1,0 +1,102 @@
+##########################################
+Date (DD/MM/YYYY)  - 28.01.2013
+
+Model name         - S25FS256S
+
+Vendor             - Spansion (www.spansion.com)
+
+Publication ID     - Spansion, FS-S_DRS_V3.1, August 10, 2012
+
+VITAL model author -  Snezana Petrovic
+                      s-petrovic@hdl-dh.com
+##########################################
+##########################################
+INITIAL RELEASE
+
+# Release Label             => vital-amd-REL-s25fs256s-2013-01-28-1.tar.gz
+# Release Date (DD/MM/YYYY) => 28/01/2013
+# Release Version           => 1.0
+
+##########################################
+
+# Release Label             => vital-amd-REL-s25fs256s-2013-11-28-2.tar.gz
+# Release Date (DD/MM/YYYY) => 28/11/2013
+# Release Version           => 1.1
+
+# Corrections:
+- Corrected Quad DDR read with DLP
+
+# Files modified
+-s25fs256s.v
+-s25fs256s.vhd
+-testbench_s25fs256s_verilog.vhd
+-testbench_s25fs256s_vhdl.vhd
+##########################################
+# Release Label             => vital-amd-REL-s25fs256s-2013-12-23-2.tar.gz
+# Release Date (DD/MM/YYYY) => 23/12/2013
+# Release Version           => 1.2
+
+# Corrections:
+- DLP read enabled with 4 latency cycles
+
+# Files modified
+-s25fs256s.v
+-s25fs256s.vhd
+-testbench_s25fs256s_verilog.vhd
+-testbench_s25fs256s_vhdl.vhd
+##########################################
+# Release Label             => vital-amd-REL-s25fs256s-2014-04-10-1.tar.gz
+# Release Date (DD/MM/YYYY) => 10/04/2014
+# Release Version           => 1.3
+
+# Corrections:
+- Corrected assignment of PageSize
+
+# Files modified
+-s25fs256s.v
+##########################################
+# Release Label             => vital-amd-REL-s25fs256s-2014-08-15-1.tar.gz
+# Release Date (DD/MM/YYYY) => 15/08/2014
+# Release Version           => 1.4
+
+# Corrections:
+- Corrected SFDP read
+
+# Files modified
+-s25fs256s.v
+-s25fs256s.vhd
+##########################################
+# Release Label             => vital-amd-REL-s25fs256s-2014-08-17-1.tar.gz
+# Release Date (DD/MM/YYYY) => 15/08/2014
+# Release Version           => 1.5
+
+# Corrections:
+- Simulation bug-fix
+
+# Files modified
+-s25fs256s.v
+##########################################
+# Release Label             => vital-amd-REL-s25fs256s-2014-08-26-2.tar.gz
+# Release Date (DD/MM/YYYY) => 26/08/2014
+# Release Version           => 1.6
+
+# Corrections:
+- Added SFDP JEDEC parameter
+
+# Files modified
+-s25fs256s.v
+-s25fs256s.vhd
+-testbench_s25fs256s_verilog.vhd
+-testbench_s25fs256s_vhdl.vhd
+##########################################
+# Release Label             => vital-amd-REL-s25fs256s-2014-10-16-1.tar.gz
+# Release Date (DD/MM/YYYY) => 16/10/2014
+# Release Version           => 1.7
+
+# Corrections:
+- Corrected data read implementation in order to solve bug when CS# de-assert
+- and CLK edge are close each other
+
+# Files modified
+-s25fs256s.v
+##########################################

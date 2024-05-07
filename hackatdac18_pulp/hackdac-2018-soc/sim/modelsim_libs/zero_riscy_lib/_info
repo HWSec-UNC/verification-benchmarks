@@ -1,0 +1,885 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/grads/p/prh537/hackdac/pulpissimo/sim
+vzeroriscy_alu
+Z1 DXx6 sv_std 3 std 0 22 >9az<^>2ff9DAl3OFGaAf1
+Z2 DXx4 work 17 zeroriscy_defines 0 22 RHCAUEEfo[FBhM3^;ih4[0
+DXx4 work 21 zeroriscy_alu_sv_unit 0 22 `3ecj9:<I`gV4E]zCDElB3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+31
+!i10b 1
+!s100 Czj0C_zJEEP4=41@eBVfd3
+IBzon97:OBjjAbbEaAGIel2
+!s105 zeroriscy_alu_sv_unit
+S1
+R0
+Z4 w1527484283
+Z5 8../ips/zero-riscy/zeroriscy_alu.sv
+Z6 F../ips/zero-riscy/zeroriscy_alu.sv
+Z7 L0 30
+Z8 OL;L;10.7;67
+Z9 !s108 1529613395.000000
+Z10 !s107 ../ips/zero-riscy/include/zeroriscy_config.sv|../ips/zero-riscy/zeroriscy_core.sv|../ips/zero-riscy/zeroriscy_fetch_fifo.sv|../ips/zero-riscy/zeroriscy_prefetch_buffer.sv|../ips/zero-riscy/zeroriscy_multdiv_fast.sv|../ips/zero-riscy/zeroriscy_multdiv_slow.sv|../ips/zero-riscy/zeroriscy_load_store_unit.sv|../ips/zero-riscy/zeroriscy_if_stage.sv|../ips/zero-riscy/zeroriscy_id_stage.sv|../ips/zero-riscy/zeroriscy_ex_block.sv|../ips/zero-riscy/zeroriscy_int_controller.sv|../ips/zero-riscy/zeroriscy_decoder.sv|../ips/zero-riscy/zeroriscy_debug_unit.sv|../ips/zero-riscy/zeroriscy_cs_registers.sv|../ips/zero-riscy/zeroriscy_controller.sv|../ips/zero-riscy/zeroriscy_compressed_decoder.sv|../ips/zero-riscy/zeroriscy_alu.sv|../ips/zero-riscy/include/zeroriscy_tracer_defines.sv|../ips/zero-riscy/include/zeroriscy_defines.sv|
+Z11 !s90 -quiet|-sv|-work|/home/grads/p/prh537/hackdac/pulpissimo/sim/modelsim_libs/zero_riscy_lib|-suppress|2583|+incdir+../ips/zero-riscy/include|../ips/zero-riscy/include/zeroriscy_defines.sv|../ips/zero-riscy/include/zeroriscy_tracer_defines.sv|../ips/zero-riscy/zeroriscy_alu.sv|../ips/zero-riscy/zeroriscy_compressed_decoder.sv|../ips/zero-riscy/zeroriscy_controller.sv|../ips/zero-riscy/zeroriscy_cs_registers.sv|../ips/zero-riscy/zeroriscy_debug_unit.sv|../ips/zero-riscy/zeroriscy_decoder.sv|../ips/zero-riscy/zeroriscy_int_controller.sv|../ips/zero-riscy/zeroriscy_ex_block.sv|../ips/zero-riscy/zeroriscy_id_stage.sv|../ips/zero-riscy/zeroriscy_if_stage.sv|../ips/zero-riscy/zeroriscy_load_store_unit.sv|../ips/zero-riscy/zeroriscy_multdiv_slow.sv|../ips/zero-riscy/zeroriscy_multdiv_fast.sv|../ips/zero-riscy/zeroriscy_prefetch_buffer.sv|../ips/zero-riscy/zeroriscy_fetch_fifo.sv|../ips/zero-riscy/zeroriscy_core.sv|
+!i113 0
+Z12 o-suppress 2583 -quiet -sv -work /home/grads/p/prh537/hackdac/pulpissimo/sim/modelsim_libs/zero_riscy_lib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z13 !s92 -suppress 2583 -quiet -sv -work /home/grads/p/prh537/hackdac/pulpissimo/sim/modelsim_libs/zero_riscy_lib +incdir+../ips/zero-riscy/include -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z14 tCvgOpt 0
+Xzeroriscy_alu_sv_unit
+R1
+R2
+V`3ecj9:<I`gV4E]zCDElB3
+r1
+!s85 0
+31
+!i10b 1
+!s100 OX2GZ08iM2A44VQoeIggM0
+I`3ecj9:<I`gV4E]zCDElB3
+!i103 1
+S1
+R0
+R4
+R5
+R6
+Z15 F../ips/zero-riscy/include/zeroriscy_config.sv
+Z16 L0 28
+R8
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R14
+vzeroriscy_compressed_decoder
+R1
+R2
+DXx4 work 36 zeroriscy_compressed_decoder_sv_unit 0 22 VQSQ:5LKT6ZAMMk_gJbTY3
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 Bg>TbjJeD]ZPzi:0zQmaD3
+ILnCjninXT3l9[<S8WTS^l2
+!s105 zeroriscy_compressed_decoder_sv_unit
+S1
+R0
+R4
+Z17 8../ips/zero-riscy/zeroriscy_compressed_decoder.sv
+Z18 F../ips/zero-riscy/zeroriscy_compressed_decoder.sv
+Z19 L0 27
+R8
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R14
+Xzeroriscy_compressed_decoder_sv_unit
+R1
+R2
+VVQSQ:5LKT6ZAMMk_gJbTY3
+r1
+!s85 0
+31
+!i10b 1
+!s100 cG6aS]8C]UFkeFQWea3LZ1
+IVQSQ:5LKT6ZAMMk_gJbTY3
+!i103 1
+S1
+R0
+R4
+R17
+R18
+L0 25
+R8
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R14
+vzeroriscy_controller
+R1
+R2
+DXx4 work 28 zeroriscy_controller_sv_unit 0 22 zM<Q;RnVRLYlWoeh;XOLS1
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 gg=15aTA`<DK2T:cO8oG]2
+ImX>T@g<^4LZ<Iz1GoNi:S1
+!s105 zeroriscy_controller_sv_unit
+S1
+R0
+R4
+Z20 8../ips/zero-riscy/zeroriscy_controller.sv
+Z21 F../ips/zero-riscy/zeroriscy_controller.sv
+Z22 L0 33
+R8
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R14
+Xzeroriscy_controller_sv_unit
+R1
+R2
+VzM<Q;RnVRLYlWoeh;XOLS1
+r1
+!s85 0
+31
+!i10b 1
+!s100 E4a0l47;i7;Wa8EDYL8680
+IzM<Q;RnVRLYlWoeh;XOLS1
+!i103 1
+S1
+R0
+R4
+R20
+R21
+R15
+R7
+R8
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R14
+vzeroriscy_core
+R1
+R2
+DXx4 work 22 zeroriscy_core_sv_unit 0 22 Fg=o5;ma>Yk1h]AoM3>ni0
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 0=4mC`_IR1VmAWb6FP52m0
+IoknLcz6<:?]P^R1;[XI:]0
+!s105 zeroriscy_core_sv_unit
+S1
+R0
+R4
+Z23 8../ips/zero-riscy/zeroriscy_core.sv
+Z24 F../ips/zero-riscy/zeroriscy_core.sv
+R22
+R8
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R14
+Xzeroriscy_core_sv_unit
+R1
+R2
+VFg=o5;ma>Yk1h]AoM3>ni0
+r1
+!s85 0
+31
+!i10b 1
+!s100 d_oiLIMFV_]B;Rg1RI96L3
+IFg=o5;ma>Yk1h]AoM3>ni0
+!i103 1
+S1
+R0
+R4
+R23
+R24
+R15
+Z25 L0 31
+R8
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R14
+vzeroriscy_cs_registers
+R1
+R2
+DXx4 work 30 zeroriscy_cs_registers_sv_unit 0 22 D=la<UF<cOmzoT9]>>Z7I0
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 AdM5hGVQJ5iAG_XT<jPTW1
+I_Gb1e_Yo9YAdJcPjeP=YN3
+!s105 zeroriscy_cs_registers_sv_unit
+S1
+R0
+R4
+Z26 8../ips/zero-riscy/zeroriscy_cs_registers.sv
+Z27 F../ips/zero-riscy/zeroriscy_cs_registers.sv
+L0 37
+R8
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R14
+Xzeroriscy_cs_registers_sv_unit
+R1
+R2
+VD=la<UF<cOmzoT9]>>Z7I0
+r1
+!s85 0
+31
+!i10b 1
+!s100 c]EOoLcbkG2ViQ2Y?j_oc0
+ID=la<UF<cOmzoT9]>>Z7I0
+!i103 1
+S1
+R0
+R4
+R26
+R27
+R15
+Z28 L0 29
+R8
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R14
+vzeroriscy_debug_unit
+R1
+R2
+DXx4 work 28 zeroriscy_debug_unit_sv_unit 0 22 mYR2d4oEV@DXG7JiE7:T30
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 GbKBP0zWF9kBT[<CDTi7S1
+I9CfEMk9N04l>8^_`A2F[e2
+!s105 zeroriscy_debug_unit_sv_unit
+S1
+R0
+R4
+Z29 8../ips/zero-riscy/zeroriscy_debug_unit.sv
+Z30 F../ips/zero-riscy/zeroriscy_debug_unit.sv
+R28
+R8
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R14
+Xzeroriscy_debug_unit_sv_unit
+R1
+R2
+VmYR2d4oEV@DXG7JiE7:T30
+r1
+!s85 0
+31
+!i10b 1
+!s100 NPgOfZ<kbNJ@8]:B9KmEz0
+ImYR2d4oEV@DXG7JiE7:T30
+!i103 1
+S1
+R0
+R4
+R29
+R30
+R15
+R19
+R8
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R14
+vzeroriscy_decoder
+R1
+R2
+DXx4 work 25 zeroriscy_decoder_sv_unit 0 22 nXaTn6z<J38@Z_Q@^FD_Y2
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 4giEzZ7Pe2M:8NIVc1O6Q1
+I6:7ol62P<HVkj5de<]F9z2
+!s105 zeroriscy_decoder_sv_unit
+S1
+R0
+R4
+Z31 8../ips/zero-riscy/zeroriscy_decoder.sv
+Z32 F../ips/zero-riscy/zeroriscy_decoder.sv
+R22
+R8
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R14
+Xzeroriscy_decoder_sv_unit
+R1
+R2
+VnXaTn6z<J38@Z_Q@^FD_Y2
+r1
+!s85 0
+31
+!i10b 1
+!s100 ?;0nXnJF64;bYfVEni3Db0
+InXaTn6z<J38@Z_Q@^FD_Y2
+!i103 1
+S1
+R0
+R4
+R31
+R32
+R15
+R25
+R8
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R14
+Xzeroriscy_defines
+R1
+Z33 !s110 1529613396
+!i10b 1
+!s100 8fU82l@[Y[G053JJ?25[63
+IRHCAUEEfo[FBhM3^;ih4[0
+VRHCAUEEfo[FBhM3^;ih4[0
+S1
+R0
+R4
+8../ips/zero-riscy/include/zeroriscy_defines.sv
+F../ips/zero-riscy/include/zeroriscy_defines.sv
+Z34 L0 26
+R8
+r1
+!s85 0
+31
+Z35 !s108 1529613396.000000
+Z36 !s107 ../ips/zero-riscy/include/zeroriscy_config.sv|../ips/zero-riscy/zeroriscy_tracer.sv|../ips/zero-riscy/include/zeroriscy_tracer_defines.sv|../ips/zero-riscy/include/zeroriscy_defines.sv|
+Z37 !s90 -quiet|-sv|-work|/home/grads/p/prh537/hackdac/pulpissimo/sim/modelsim_libs/zero_riscy_lib|-suppress|2583|+incdir+../ips/zero-riscy/include|../ips/zero-riscy/include/zeroriscy_defines.sv|../ips/zero-riscy/include/zeroriscy_tracer_defines.sv|../ips/zero-riscy/zeroriscy_tracer.sv|
+!i113 0
+R12
+R13
+R14
+vzeroriscy_ex_block
+R1
+R2
+DXx4 work 26 zeroriscy_ex_block_sv_unit 0 22 SoX9;n562^LbYSNH]h@5>0
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 FQdDUSK3Zmo9EK7XWJId10
+IG]iW5EYbbOgLoXOCIoXke1
+!s105 zeroriscy_ex_block_sv_unit
+S1
+R0
+R4
+Z38 8../ips/zero-riscy/zeroriscy_ex_block.sv
+Z39 F../ips/zero-riscy/zeroriscy_ex_block.sv
+R22
+R8
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R14
+Xzeroriscy_ex_block_sv_unit
+R1
+R2
+VSoX9;n562^LbYSNH]h@5>0
+r1
+!s85 0
+31
+!i10b 1
+!s100 2YaBPIS:JOcYD:DbeQF9P0
+ISoX9;n562^LbYSNH]h@5>0
+!i103 1
+S1
+R0
+R4
+R38
+R39
+R15
+R25
+R8
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R14
+vzeroriscy_fetch_fifo
+R1
+R33
+!i10b 1
+!s100 Y=Ee]@S]^`N@_b@>BDbd`3
+IPDmRAS7dNMcUL8oBXDWPc3
+R3
+!s105 zeroriscy_fetch_fifo_sv_unit
+S1
+R0
+R4
+8../ips/zero-riscy/zeroriscy_fetch_fifo.sv
+F../ips/zero-riscy/zeroriscy_fetch_fifo.sv
+R34
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R14
+vzeroriscy_id_stage
+R1
+R2
+DXx4 work 26 zeroriscy_id_stage_sv_unit 0 22 k]JCaIYX1;jIY@8_l6_2;3
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 _OU@Zm1IB==@Y<<e?>dX10
+IhL>L5@@:Q>nbNEea`kRRY1
+!s105 zeroriscy_id_stage_sv_unit
+S1
+R0
+R4
+Z40 8../ips/zero-riscy/zeroriscy_id_stage.sv
+Z41 F../ips/zero-riscy/zeroriscy_id_stage.sv
+L0 40
+R8
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R14
+Xzeroriscy_id_stage_sv_unit
+R1
+R2
+Vk]JCaIYX1;jIY@8_l6_2;3
+r1
+!s85 0
+31
+!i10b 1
+!s100 =K5EZakXXB=^VDA^o6TML3
+Ik]JCaIYX1;jIY@8_l6_2;3
+!i103 1
+S1
+R0
+R4
+R40
+R41
+R15
+R25
+R8
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R14
+vzeroriscy_if_stage
+R1
+R2
+DXx4 work 26 zeroriscy_if_stage_sv_unit 0 22 <66nk:4]QG>kSYni6U:M?0
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 ZKilA;NKSOG==AhjekX[?3
+IejFm?TC>zOOUNfEMz[V7>2
+!s105 zeroriscy_if_stage_sv_unit
+S1
+R0
+R4
+Z42 8../ips/zero-riscy/zeroriscy_if_stage.sv
+Z43 F../ips/zero-riscy/zeroriscy_if_stage.sv
+L0 32
+R8
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R14
+Xzeroriscy_if_stage_sv_unit
+R1
+R2
+V<66nk:4]QG>kSYni6U:M?0
+r1
+!s85 0
+31
+!i10b 1
+!s100 =W;FflBJYm@ghASCI08Hc0
+I<66nk:4]QG>kSYni6U:M?0
+!i103 1
+S1
+R0
+R4
+R42
+R43
+R15
+R7
+R8
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R14
+vzeroriscy_int_controller
+R1
+R2
+DXx4 work 32 zeroriscy_int_controller_sv_unit 0 22 m@6^VnMNHWD0^Hn[mGeY22
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 4d@2LS:06AUi5fH3mYczc3
+I5KNc;S=ZjPD<IBaZ0SYHX1
+!s105 zeroriscy_int_controller_sv_unit
+S1
+R0
+R4
+Z44 8../ips/zero-riscy/zeroriscy_int_controller.sv
+Z45 F../ips/zero-riscy/zeroriscy_int_controller.sv
+R34
+R8
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R14
+Xzeroriscy_int_controller_sv_unit
+R1
+R2
+Vm@6^VnMNHWD0^Hn[mGeY22
+r1
+!s85 0
+31
+!i10b 1
+!s100 ^PAN4<jKMVf>H5Ko[<9aT0
+Im@6^VnMNHWD0^Hn[mGeY22
+!i103 1
+S1
+R0
+R4
+R44
+R45
+L0 24
+R8
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R14
+vzeroriscy_load_store_unit
+R1
+R33
+!i10b 1
+!s100 Y86`?WcV=mnb2eC?MK0d[1
+IKH?W>X>lzN[DW1UmW`8eF3
+R3
+!s105 zeroriscy_load_store_unit_sv_unit
+S1
+R0
+R4
+8../ips/zero-riscy/zeroriscy_load_store_unit.sv
+F../ips/zero-riscy/zeroriscy_load_store_unit.sv
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R14
+vzeroriscy_multdiv_fast
+R1
+R2
+DXx4 work 30 zeroriscy_multdiv_fast_sv_unit 0 22 B5mFE;FAXMnlG=@@ikX`j1
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 @>S>UGM7o8hHC[;Mo^P982
+IfnTz=_H>mh;oTNneCC[Hn3
+!s105 zeroriscy_multdiv_fast_sv_unit
+S1
+R0
+R4
+Z46 8../ips/zero-riscy/zeroriscy_multdiv_fast.sv
+Z47 F../ips/zero-riscy/zeroriscy_multdiv_fast.sv
+R16
+R8
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R14
+Xzeroriscy_multdiv_fast_sv_unit
+R1
+R2
+VB5mFE;FAXMnlG=@@ikX`j1
+r1
+!s85 0
+31
+!i10b 1
+!s100 <YHiEUMSF[DKfkgTSgUI00
+IB5mFE;FAXMnlG=@@ikX`j1
+!i103 1
+S1
+R0
+R4
+R46
+R47
+Z48 L0 23
+R8
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R14
+vzeroriscy_multdiv_slow
+R1
+R2
+DXx4 work 30 zeroriscy_multdiv_slow_sv_unit 0 22 0lE1;dJE3cM8:9lB>3n]G3
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 KEfKBz;iYAK=nTj1KRB>g0
+I1AJIHmF1?]U5i67j_WaWj1
+!s105 zeroriscy_multdiv_slow_sv_unit
+S1
+R0
+R4
+Z49 8../ips/zero-riscy/zeroriscy_multdiv_slow.sv
+Z50 F../ips/zero-riscy/zeroriscy_multdiv_slow.sv
+R34
+R8
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R14
+Xzeroriscy_multdiv_slow_sv_unit
+R1
+R2
+V0lE1;dJE3cM8:9lB>3n]G3
+r1
+!s85 0
+31
+!i10b 1
+!s100 PW>PUgD^>Qz^4fT]^3YEG2
+I0lE1;dJE3cM8:9lB>3n]G3
+!i103 1
+S1
+R0
+R4
+R49
+R50
+R48
+R8
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R14
+vzeroriscy_prefetch_buffer
+R1
+R33
+!i10b 1
+!s100 [SQR7m[_`jPeU8FLVzP8j0
+Imc03G5f?=QQZ53n;gjPND3
+R3
+!s105 zeroriscy_prefetch_buffer_sv_unit
+S1
+R0
+R4
+8../ips/zero-riscy/zeroriscy_prefetch_buffer.sv
+F../ips/zero-riscy/zeroriscy_prefetch_buffer.sv
+R48
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R13
+R14
+vzeroriscy_register_file
+R1
+R33
+!i10b 1
+!s100 0adD6GdjZY7m7jQN6BO^C2
+IG<035=:C5b?3kg[Lf`<KA1
+R3
+!s105 zeroriscy_register_file_sv_unit
+S1
+R0
+R4
+8../ips/zero-riscy/zeroriscy_register_file.sv
+F../ips/zero-riscy/zeroriscy_register_file.sv
+R7
+R8
+r1
+!s85 0
+31
+R35
+!s107 ../ips/zero-riscy/include/zeroriscy_config.sv|../ips/zero-riscy/zeroriscy_register_file.sv|
+!s90 -quiet|-sv|-work|/home/grads/p/prh537/hackdac/pulpissimo/sim/modelsim_libs/zero_riscy_lib|-suppress|2583|+incdir+../ips/zero-riscy/include|../ips/zero-riscy/zeroriscy_register_file.sv|
+!i113 0
+R12
+R13
+R14
+vzeroriscy_tracer
+R1
+R2
+Z51 DXx4 work 24 zeroriscy_tracer_defines 0 22 N53?oPI^l;jFTgF:mzEnN2
+DXx4 work 24 zeroriscy_tracer_sv_unit 0 22 ;QKGcN[gIEShkRcJbOTF70
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 FTQDC^6gBK_3A>9DT?Q;e2
+ILRU72Pmo8i2dE^fdRni=L0
+!s105 zeroriscy_tracer_sv_unit
+S1
+R0
+R4
+Z52 8../ips/zero-riscy/zeroriscy_tracer.sv
+Z53 F../ips/zero-riscy/zeroriscy_tracer.sv
+L0 41
+R8
+R35
+R36
+R37
+!i113 0
+R12
+R13
+R14
+Xzeroriscy_tracer_defines
+R1
+R2
+R33
+!i10b 1
+!s100 ^7CTdV`m[8>9YagZD7g:g0
+IN53?oPI^l;jFTgF:mzEnN2
+VN53?oPI^l;jFTgF:mzEnN2
+S1
+R0
+R4
+8../ips/zero-riscy/include/zeroriscy_tracer_defines.sv
+F../ips/zero-riscy/include/zeroriscy_tracer_defines.sv
+L0 11
+R8
+r1
+!s85 0
+31
+R35
+R36
+R37
+!i113 0
+R12
+R13
+R14
+Xzeroriscy_tracer_sv_unit
+R1
+R2
+R51
+V;QKGcN[gIEShkRcJbOTF70
+r1
+!s85 0
+31
+!i10b 1
+!s100 jYb8<fH6bMG61>nb`:n[01
+I;QKGcN[gIEShkRcJbOTF70
+!i103 1
+S1
+R0
+R4
+R52
+R53
+R15
+R7
+R8
+R35
+R36
+R37
+!i113 0
+R12
+R13
+R14

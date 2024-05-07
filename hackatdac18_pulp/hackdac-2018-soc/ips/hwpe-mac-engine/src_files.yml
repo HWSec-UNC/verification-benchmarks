@@ -1,0 +1,34 @@
+hw-mac-engine:
+  incdirs : [
+    rtl
+  ]
+  files : [
+    rtl/mac_package.sv,
+    rtl/mac_fsm.sv,
+    rtl/mac_ctrl.sv,
+    rtl/mac_streamer.sv,
+    rtl/mac_engine.sv,
+    rtl/mac_top.sv,
+    rtl/aes_1cc.v,
+    rtl/AddRoundKey.v,
+    rtl/KeyExpansion.v,
+    rtl/MixColumns.v,
+    rtl/ShiftRows.v,
+    rtl/SubBytes.v,
+    rtl/SubBytes_sbox.v,
+    rtl/tempsen.v,
+    rtl/md5.v,
+    rtl/keccak.v,
+    rtl/f_permutation.v,
+    rtl/mux_func.sv,
+    rtl/padder.v,
+    rtl/padder1.v
+    rtl/const2in1.v,
+    rtl/round2in1.v,
+    wrap/mac_top_wrap.sv
+  ]
+  vlog_opts : [
+    "-L hwpe_ctrl_lib",
+    "-L hwpe_stream_lib"
+  ]
+

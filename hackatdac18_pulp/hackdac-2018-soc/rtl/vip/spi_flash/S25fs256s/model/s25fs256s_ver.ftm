@@ -1,0 +1,271 @@
+<!DOCTYPE FTML SYSTEM "ftml.dtd">
+<FTML><HEAD><TITLE>FMF Timing for s25fs256s Parts</TITLE>
+<BODY>
+<REVISION.HISTORY>
+version: |   author:      |  mod date:   | changes made:
+  V1.0      S.Petrovic      13 Jan 22     Initial release
+</REVISION.HISTORY>
+<TIMESCALE>1ns</TIMESCALE>
+<MODEL>s25fl256s
+<FMFTIME>
+S25FS256SAGMFI000_F_30pF<SOURCE> Spansion, FS-S_DRS_V3.1, August 10, 2012 </SOURCE>
+S25FS256SAGMFI001_F_30pF<SOURCE> Spansion, FS-S_DRS_V3.1, August 10, 2012 </SOURCE>
+S25FS256SAGMFI003_F_30pF<SOURCE> Spansion, FS-S_DRS_V3.1, August 10, 2012 </SOURCE>
+S25FS256SAGMFV000_F_30pF<SOURCE> Spansion, FS-S_DRS_V3.1, August 10, 2012 </SOURCE>
+S25FS256SAGMFV001_F_30pF<SOURCE> Spansion, FS-S_DRS_V3.1, August 10, 2012 </SOURCE>
+S25FS256SAGMFV003_F_30pF<SOURCE> Spansion, FS-S_DRS_V3.1, August 10, 2012 </SOURCE>
+S25FS256SAGNFI000_F_30pF<SOURCE> Spansion, FS-S_DRS_V3.1, August 10, 2012 </SOURCE>
+S25FS256SAGNFI001_F_30pF<SOURCE> Spansion, FS-S_DRS_V3.1, August 10, 2012 </SOURCE>
+S25FS256SAGNFI003_F_30pF<SOURCE> Spansion, FS-S_DRS_V3.1, August 10, 2012 </SOURCE>
+S25FS256SAGNFV000_F_30pF<SOURCE> Spansion, FS-S_DRS_V3.1, August 10, 2012 </SOURCE>
+S25FS256SAGNFV001_F_30pF<SOURCE> Spansion, FS-S_DRS_V3.1, August 10, 2012 </SOURCE>
+S25FS256SAGNFV003_F_30pF<SOURCE> Spansion, FS-S_DRS_V3.1, August 10, 2012 </SOURCE>
+S25FS256SAGBHI200_F_30pF<SOURCE> Spansion, FS-S_DRS_V3.1, August 10, 2012 </SOURCE>
+S25FS256SAGBHI203_F_30pF<SOURCE> Spansion, FS-S_DRS_V3.1, August 10, 2012 </SOURCE>
+S25FS256SAGBHI300_F_30pF<SOURCE> Spansion, FS-S_DRS_V3.1, August 10, 2012 </SOURCE>
+S25FS256SAGBHI303_F_30pF<SOURCE> Spansion, FS-S_DRS_V3.1, August 10, 2012 </SOURCE>
+S25FS256SAGBHV200_F_30pF<SOURCE> Spansion, FS-S_DRS_V3.1, August 10, 2012 </SOURCE>
+S25FS256SAGBHV203_F_30pF<SOURCE> Spansion, FS-S_DRS_V3.1, August 10, 2012 </SOURCE>
+S25FS256SAGBHV300_F_30pF<SOURCE> Spansion, FS-S_DRS_V3.1, August 10, 2012 </SOURCE>
+S25FS256SAGBHV303_F_30pF<SOURCE> Spansion, FS-S_DRS_V3.1, August 10, 2012 </SOURCE>
+S25FS256SDSMFI000_F_30pF<SOURCE> Spansion, FS-S_DRS_V3.1, August 10, 2012 </SOURCE>
+S25FS256SDSMFI001_F_30pF<SOURCE> Spansion, FS-S_DRS_V3.1, August 10, 2012 </SOURCE>
+S25FS256SDSMFI003_F_30pF<SOURCE> Spansion, FS-S_DRS_V3.1, August 10, 2012 </SOURCE>
+S25FS256SDSMFV000_F_30pF<SOURCE> Spansion, FS-S_DRS_V3.1, August 10, 2012 </SOURCE>
+S25FS256SDSMFV001_F_30pF<SOURCE> Spansion, FS-S_DRS_V3.1, August 10, 2012 </SOURCE>
+S25FS256SDSMFV003_F_30pF<SOURCE> Spansion, FS-S_DRS_V3.1, August 10, 2012 </SOURCE>
+S25FS256SDSNFI000_F_30pF<SOURCE> Spansion, FS-S_DRS_V3.1, August 10, 2012 </SOURCE>
+S25FS256SDSNFI001_F_30pF<SOURCE> Spansion, FS-S_DRS_V3.1, August 10, 2012 </SOURCE>
+S25FS256SDSNFI003_F_30pF<SOURCE> Spansion, FS-S_DRS_V3.1, August 10, 2012 </SOURCE>
+S25FS256SDSNFV000_F_30pF<SOURCE> Spansion, FS-S_DRS_V3.1, August 10, 2012 </SOURCE>
+S25FS256SDSNFV001_F_30pF<SOURCE> Spansion, FS-S_DRS_V3.1, August 10, 2012 </SOURCE>
+S25FS256SDSNFV003_F_30pF<SOURCE> Spansion, FS-S_DRS_V3.1, August 10, 2012 </SOURCE>
+S25FS256SDSBHI200_F_30pF<SOURCE> Spansion, FS-S_DRS_V3.1, August 10, 2012 </SOURCE>
+S25FS256SDSBHI203_F_30pF<SOURCE> Spansion, FS-S_DRS_V3.1, August 10, 2012 </SOURCE>
+S25FS256SDSBHI300_F_30pF<SOURCE> Spansion, FS-S_DRS_V3.1, August 10, 2012 </SOURCE>
+S25FS256SDSBHI303_F_30pF<SOURCE> Spansion, FS-S_DRS_V3.1, August 10, 2012 </SOURCE>
+S25FS256SDSBHV200_F_30pF<SOURCE> Spansion, FS-S_DRS_V3.1, August 10, 2012 </SOURCE>
+S25FS256SDSBHV203_F_30pF<SOURCE> Spansion, FS-S_DRS_V3.1, August 10, 2012 </SOURCE>
+S25FS256SDSBHV300_F_30pF<SOURCE> Spansion, FS-S_DRS_V3.1, August 10, 2012 </SOURCE>
+S25FS256SDSBHV303_F_30pF<SOURCE> Spansion, FS-S_DRS_V3.1, August 10, 2012 </SOURCE>
+S25FS256SAGBHIY00_F_30pF<SOURCE> Spansion, FS-S_DRS_V3.1, August 10, 2012 </SOURCE>
+S25FS256SAGBHIY03_F_30pF<SOURCE> Spansion, FS-S_DRS_V3.1, August 10, 2012 </SOURCE>
+S25FS256SAGBHIZ00_F_30pF<SOURCE> Spansion, FS-S_DRS_V3.1, August 10, 2012 </SOURCE>
+S25FS256SAGBHIZ03_F_30pF<SOURCE> Spansion, FS-S_DRS_V3.1, August 10, 2012 </SOURCE>
+S25FS256SDSBHIY00_F_30pF<SOURCE> Spansion, FS-S_DRS_V3.1, August 10, 2012 </SOURCE>
+S25FS256SDSBHIY03_F_30pF<SOURCE> Spansion, FS-S_DRS_V3.1, August 10, 2012 </SOURCE>
+S25FS256SDSBHIZ00_F_30pF<SOURCE> Spansion, FS-S_DRS_V3.1, August 10, 2012 </SOURCE>
+S25FS256SDSBHIZ03_F_30pF<SOURCE> Spansion, FS-S_DRS_V3.1, August 10, 2012 </SOURCE>
+<COMMENT>The values listed are for Industrial TA= -40 to +85 Celsius, VDD=1.7V to 2.0V, CL=30pF </COMMENT>
+<TIMING>
+(DELAY (ABSOLUTE
+    (COND  rd_slow && ~glitch          (IOPATH SCK SO (5.4:6.7:8) (5.4:6.7:8) (1) (5.4:6.7:8) (1) (5.4:6.7:8)))
+    (COND  (ddr || rd_fast) && ~glitch (IOPATH SCK SO (1.5:4:6.5) (1.5:4:6.5) (1) (1.5:4:6.5) (1) (1.5:4:6.5)))
+
+    (COND  dual && ~glitch (IOPATH SCK SI (1.5:4:6.5) (1.5:4:6.5) (1) (1.5:4:6.5) (1) (1.5:4:6.5)))
+
+    (COND  QUAD && ~CSNeg && ~glitch (IOPATH SCK RESETNeg (1.5:4:6.5) (1.5:4:6.5) (1) (1.5:4:6.5) (1) (1.5:4:6.5)))
+    (COND  QUAD && ~glitch           (IOPATH SCK WPNeg    (1.5:4:6.5) (1.5:4:6.5) (1) (1.5:4:6.5) (1) (1.5:4:6.5)))
+
+    (COND CSNeg && ~rst_quad (IOPATH CSNeg SO   () () (5.4:6.7:8) () (5.4:6.7:8) ()))
+    (COND CSNeg &&  rst_quad (IOPATH CSNeg SO   () () (12:16:20)  () (12:16:20)  ()))
+
+    (COND CSNeg && dual && ~rst_quad (IOPATH CSNeg SI   () () (5.4:6.7:8) () (5.4:6.7:8) ()))
+    (COND CSNeg && dual &&  rst_quad (IOPATH CSNeg SI   () () (12:16:20)  () (12:16:20)  ()))
+
+    (COND CSNeg && ~rst_quad (IOPATH CSNeg RESETNeg  () () (5.4:6.7:8) () (5.4:6.7:8) ()))
+    (COND CSNeg &&  rst_quad (IOPATH CSNeg RESETNeg  () () (12:16:20)  () (12:16:20)  ()))
+
+    (COND CSNeg && ~rst_quad (IOPATH CSNeg WPNeg  () () (5.4:6.7:8) () (5.4:6.7:8) ()))
+    (COND CSNeg &&  rst_quad (IOPATH CSNeg WPNeg  () () (12:16:20)  () (12:16:20)  ()))
+  ))
+  (TIMINGCHECK
+    (SETUP CSNeg SCK (2))
+    (SETUP SI       (COND sdro_io1      (posedge SCK)) (2))
+    (SETUP SI       (COND ddro_io1      (posedge SCK)) (1.5))
+    (SETUP SI       (COND ddro_io1      (negedge SCK)) (1.5))
+    (SETUP SO       (COND sdro_quad_io0 (posedge SCK)) (2))
+    (SETUP SO       (COND ddro_quad_io0 (posedge SCK)) (1.5))
+    (SETUP SO       (COND ddro_quad_io0 (negedge SCK)) (1.5))
+    (SETUP WPNeg    (COND sdro_quad_io2 (posedge SCK)) (2))
+    (SETUP WPNeg    (COND ddro_quad_io2 (posedge SCK)) (1.5))
+    (SETUP WPNeg    (COND ddro_quad_io2 (negedge SCK)) (1.5))
+    (SETUP RESETNeg (COND sdro_quad_io3 (posedge SCK)) (2))
+    (SETUP RESETNeg (COND ddro_quad_io3 (posedge SCK)) (1.5))
+    (SETUP RESETNeg (COND ddro_quad_io3 (negedge SCK)) (1.5))
+    (SETUP WPNeg    (COND wr_prot       (negedge CSNeg)) (20))
+    (SETUP RESETNeg (COND rst_not_quad  CSNeg) (50))
+
+    (HOLD CSNeg SCK (3))
+    (HOLD SI        (COND sdro_io1      (posedge SCK)) (3))
+    (HOLD SI        (COND ddro_io1      (posedge SCK)) (1.5))
+    (HOLD SI        (COND ddro_io1      (negedge SCK)) (1.5))
+    (HOLD SO        (COND sdro_quad_io0 (posedge SCK)) (3))
+    (HOLD SO        (COND ddro_quad_io0 (posedge SCK)) (1.5))
+    (HOLD SO        (COND ddro_quad_io0 (negedge SCK)) (1.5))
+    (HOLD WPNeg     (COND sdro_quad_io2 (posedge SCK)) (3))
+    (HOLD WPNeg     (COND ddro_quad_io2 (posedge SCK)) (1.5))
+    (HOLD WPNeg     (COND ddro_quad_io2 (negedge SCK)) (1.5))
+    (HOLD RESETNeg  (COND sdro_quad_io3 (posedge SCK)) (3))
+    (HOLD RESETNeg  (COND ddro_quad_io3 (posedge SCK)) (1.5))
+    (HOLD RESETNeg  (COND ddro_quad_io3 (negedge SCK)) (1.5))
+    (HOLD WPNeg     (COND wr_prot       (posedge CSNeg)) (100))
+    (HOLD CSNeg     (COND reset_act     (negedge RESETNeg)) (35000))
+
+    (WIDTH  (COND  rd        (posedge SCK))  (10))
+    (WIDTH  (COND  rd        (negedge SCK))  (10))
+    (WIDTH  (COND  fast_rd   (negedge SCK))  (3.75))
+    (WIDTH  (COND  fast_rd   (posedge SCK))  (3.75))
+    (WIDTH  (COND  ddrd      (posedge SCK))  (6.25))
+    (WIDTH  (COND  ddrd      (negedge SCK))  (6.25))
+    (WIDTH  (COND  RD_EQU_1  (posedge CSNeg))  (10))
+    (WIDTH  (COND  QRD_EQU_1 (posedge CSNeg))  (20))
+    (WIDTH  (COND  RD_EQU_0  (posedge CSNeg))  (50))
+    (WIDTH  (COND  reset_act (negedge RESETNeg)) (200))
+    (WIDTH  (COND  reset_act (posedge RESETNeg)) (50))
+
+    (PERIOD (COND rd SCK) (20))
+    (PERIOD (COND fast_rd SCK) (7.52))
+    (PERIOD (COND ddrd SCK) (12.5))
+  ))
+ (CELL
+  (CELLTYPE "BUFFER")
+  (INSTANCE %LABEL%/BUF_DOutZ)
+  (DELAY (ABSOLUTE (DEVICE OUT (1)))))
+ (CELL
+  (CELLTYPE "BUFFER")
+  (INSTANCE %LABEL%/BUF_DOut)
+  (DELAY (ABSOLUTE (DEVICE OUT (1.5:4:6.5))))
+</TIMING></FMFTIME>
+</BODY></FTML>
+<FMFTIME>
+S25FS256SAGMFI000_F_15pF<SOURCE> Spansion, FS-S_DRS_V3.1, August 10, 2012 </SOURCE>
+S25FS256SAGMFI001_F_15pF<SOURCE> Spansion, FS-S_DRS_V3.1, August 10, 2012 </SOURCE>
+S25FS256SAGMFI003_F_15pF<SOURCE> Spansion, FS-S_DRS_V3.1, August 10, 2012 </SOURCE>
+S25FS256SAGMFV000_F_15pF<SOURCE> Spansion, FS-S_DRS_V3.1, August 10, 2012 </SOURCE>
+S25FS256SAGMFV001_F_15pF<SOURCE> Spansion, FS-S_DRS_V3.1, August 10, 2012 </SOURCE>
+S25FS256SAGMFV003_F_15pF<SOURCE> Spansion, FS-S_DRS_V3.1, August 10, 2012 </SOURCE>
+S25FS256SAGNFI000_F_15pF<SOURCE> Spansion, FS-S_DRS_V3.1, August 10, 2012 </SOURCE>
+S25FS256SAGNFI001_F_15pF<SOURCE> Spansion, FS-S_DRS_V3.1, August 10, 2012 </SOURCE>
+S25FS256SAGNFI003_F_15pF<SOURCE> Spansion, FS-S_DRS_V3.1, August 10, 2012 </SOURCE>
+S25FS256SAGNFV000_F_15pF<SOURCE> Spansion, FS-S_DRS_V3.1, August 10, 2012 </SOURCE>
+S25FS256SAGNFV001_F_15pF<SOURCE> Spansion, FS-S_DRS_V3.1, August 10, 2012 </SOURCE>
+S25FS256SAGNFV003_F_15pF<SOURCE> Spansion, FS-S_DRS_V3.1, August 10, 2012 </SOURCE>
+S25FS256SAGBHI200_F_15pF<SOURCE> Spansion, FS-S_DRS_V3.1, August 10, 2012 </SOURCE>
+S25FS256SAGBHI203_F_15pF<SOURCE> Spansion, FS-S_DRS_V3.1, August 10, 2012 </SOURCE>
+S25FS256SAGBHI300_F_15pF<SOURCE> Spansion, FS-S_DRS_V3.1, August 10, 2012 </SOURCE>
+S25FS256SAGBHI303_F_15pF<SOURCE> Spansion, FS-S_DRS_V3.1, August 10, 2012 </SOURCE>
+S25FS256SAGBHV200_F_15pF<SOURCE> Spansion, FS-S_DRS_V3.1, August 10, 2012 </SOURCE>
+S25FS256SAGBHV203_F_15pF<SOURCE> Spansion, FS-S_DRS_V3.1, August 10, 2012 </SOURCE>
+S25FS256SAGBHV300_F_15pF<SOURCE> Spansion, FS-S_DRS_V3.1, August 10, 2012 </SOURCE>
+S25FS256SAGBHV303_F_15pF<SOURCE> Spansion, FS-S_DRS_V3.1, August 10, 2012 </SOURCE>
+S25FS256SDSMFI000_F_15pF<SOURCE> Spansion, FS-S_DRS_V3.1, August 10, 2012 </SOURCE>
+S25FS256SDSMFI001_F_15pF<SOURCE> Spansion, FS-S_DRS_V3.1, August 10, 2012 </SOURCE>
+S25FS256SDSMFI003_F_15pF<SOURCE> Spansion, FS-S_DRS_V3.1, August 10, 2012 </SOURCE>
+S25FS256SDSMFV000_F_15pF<SOURCE> Spansion, FS-S_DRS_V3.1, August 10, 2012 </SOURCE>
+S25FS256SDSMFV001_F_15pF<SOURCE> Spansion, FS-S_DRS_V3.1, August 10, 2012 </SOURCE>
+S25FS256SDSMFV003_F_15pF<SOURCE> Spansion, FS-S_DRS_V3.1, August 10, 2012 </SOURCE>
+S25FS256SDSNFI000_F_15pF<SOURCE> Spansion, FS-S_DRS_V3.1, August 10, 2012 </SOURCE>
+S25FS256SDSNFI001_F_15pF<SOURCE> Spansion, FS-S_DRS_V3.1, August 10, 2012 </SOURCE>
+S25FS256SDSNFI003_F_15pF<SOURCE> Spansion, FS-S_DRS_V3.1, August 10, 2012 </SOURCE>
+S25FS256SDSNFV000_F_15pF<SOURCE> Spansion, FS-S_DRS_V3.1, August 10, 2012 </SOURCE>
+S25FS256SDSNFV001_F_15pF<SOURCE> Spansion, FS-S_DRS_V3.1, August 10, 2012 </SOURCE>
+S25FS256SDSNFV003_F_15pF<SOURCE> Spansion, FS-S_DRS_V3.1, August 10, 2012 </SOURCE>
+S25FS256SDSBHI200_F_15pF<SOURCE> Spansion, FS-S_DRS_V3.1, August 10, 2012 </SOURCE>
+S25FS256SDSBHI203_F_15pF<SOURCE> Spansion, FS-S_DRS_V3.1, August 10, 2012 </SOURCE>
+S25FS256SDSBHI300_F_15pF<SOURCE> Spansion, FS-S_DRS_V3.1, August 10, 2012 </SOURCE>
+S25FS256SDSBHI303_F_15pF<SOURCE> Spansion, FS-S_DRS_V3.1, August 10, 2012 </SOURCE>
+S25FS256SDSBHV200_F_15pF<SOURCE> Spansion, FS-S_DRS_V3.1, August 10, 2012 </SOURCE>
+S25FS256SDSBHV203_F_15pF<SOURCE> Spansion, FS-S_DRS_V3.1, August 10, 2012 </SOURCE>
+S25FS256SDSBHV300_F_15pF<SOURCE> Spansion, FS-S_DRS_V3.1, August 10, 2012 </SOURCE>
+S25FS256SDSBHV303_F_15pF<SOURCE> Spansion, FS-S_DRS_V3.1, August 10, 2012 </SOURCE>
+S25FS256SAGBHIY00_F_15pF<SOURCE> Spansion, FS-S_DRS_V3.1, August 10, 2012 </SOURCE>
+S25FS256SAGBHIY03_F_15pF<SOURCE> Spansion, FS-S_DRS_V3.1, August 10, 2012 </SOURCE>
+S25FS256SAGBHIZ00_F_15pF<SOURCE> Spansion, FS-S_DRS_V3.1, August 10, 2012 </SOURCE>
+S25FS256SAGBHIZ03_F_15pF<SOURCE> Spansion, FS-S_DRS_V3.1, August 10, 2012 </SOURCE>
+S25FS256SDSBHIY00_F_15pF<SOURCE> Spansion, FS-S_DRS_V3.1, August 10, 2012 </SOURCE>
+S25FS256SDSBHIY03_F_15pF<SOURCE> Spansion, FS-S_DRS_V3.1, August 10, 2012 </SOURCE>
+S25FS256SDSBHIZ00_F_15pF<SOURCE> Spansion, FS-S_DRS_V3.1, August 10, 2012 </SOURCE>
+S25FS256SDSBHIZ03_F_15pF<SOURCE> Spansion, FS-S_DRS_V3.1, August 10, 2012 </SOURCE>
+<COMMENT>The values listed are for Industrial TA= -40 to +85 Celsius, VDD=1.7V to 2.0V, CL=15pF </COMMENT>
+<TIMING>
+(DELAY (ABSOLUTE
+    (COND  rd_slow && ~glitch          (IOPATH SCK SO (4:5:6) (4:5:6) (1) (4:5:6) (1) (4:5:6)))
+    (COND  (ddr || rd_fast) && ~glitch (IOPATH SCK SO (1.5:4:6.5) (1.5:4:6.5) (1) (1.5:4:6.5) (1) (1.5:4:6.5)))
+
+    (COND  dual && ~glitch (IOPATH SCK SI (1.5:4:6.5) (1.5:4:6.5) (1) (1.5:4:6.5) (1) (1.5:4:6.5)))
+
+    (COND  QUAD && ~CSNeg && ~glitch (IOPATH SCK RESETNeg (1.5:4:6.5) (1.5:4:6.5) (1) (1.5:4:6.5) (1) (1.5:4:6.5)))
+    (COND  QUAD && ~glitch           (IOPATH SCK WPNeg    (1.5:4:6.5) (1.5:4:6.5) (1) (1.5:4:6.5) (1) (1.5:4:6.5)))
+
+    (COND CSNeg && ~rst_quad (IOPATH CSNeg SO   () () (5.4:6.7:8) () (5.4:6.7:8) ()))
+    (COND CSNeg &&  rst_quad (IOPATH CSNeg SO   () () (12:16:20)  () (12:16:20)  ()))
+
+    (COND CSNeg && dual && ~rst_quad (IOPATH CSNeg SI   () () (5.4:6.7:8) () (5.4:6.7:8) ()))
+    (COND CSNeg && dual &&  rst_quad (IOPATH CSNeg SI   () () (12:16:20)  () (12:16:20)  ()))
+
+    (COND CSNeg && ~rst_quad (IOPATH CSNeg RESETNeg  () () (5.4:6.7:8) () (5.4:6.7:8) ()))
+    (COND CSNeg &&  rst_quad (IOPATH CSNeg RESETNeg  () () (12:16:20)  () (12:16:20)  ()))
+
+    (COND CSNeg && ~rst_quad (IOPATH CSNeg WPNeg  () () (5.4:6.7:8) () (5.4:6.7:8) ()))
+    (COND CSNeg &&  rst_quad (IOPATH CSNeg WPNeg  () () (12:16:20)  () (12:16:20)  ()))
+  ))
+  (TIMINGCHECK
+    (SETUP CSNeg SCK (2))
+    (SETUP SI       (COND sdro_io1      (posedge SCK)) (2))
+    (SETUP SI       (COND ddro_io1      (posedge SCK)) (1.5))
+    (SETUP SI       (COND ddro_io1      (negedge SCK)) (1.5))
+    (SETUP SO       (COND sdro_quad_io0 (posedge SCK)) (2))
+    (SETUP SO       (COND ddro_quad_io0 (posedge SCK)) (1.5))
+    (SETUP SO       (COND ddro_quad_io0 (negedge SCK)) (1.5))
+    (SETUP WPNeg    (COND sdro_quad_io2 (posedge SCK)) (2))
+    (SETUP WPNeg    (COND ddro_quad_io2 (posedge SCK)) (1.5))
+    (SETUP WPNeg    (COND ddro_quad_io2 (negedge SCK)) (1.5))
+    (SETUP RESETNeg (COND sdro_quad_io3 (posedge SCK)) (2))
+    (SETUP RESETNeg (COND ddro_quad_io3 (posedge SCK)) (1.5))
+    (SETUP RESETNeg (COND ddro_quad_io3 (negedge SCK)) (1.5))
+    (SETUP WPNeg    (COND wr_prot       (negedge CSNeg)) (20))
+    (SETUP RESETNeg (COND rst_not_quad  CSNeg) (50))
+
+    (HOLD CSNeg SCK (3))
+    (HOLD SI        (COND sdro_io1      (posedge SCK)) (3))
+    (HOLD SI        (COND ddro_io1      (posedge SCK)) (1.5))
+    (HOLD SI        (COND ddro_io1      (negedge SCK)) (1.5))
+    (HOLD SO        (COND sdro_quad_io0 (posedge SCK)) (3))
+    (HOLD SO        (COND ddro_quad_io0 (posedge SCK)) (1.5))
+    (HOLD SO        (COND ddro_quad_io0 (negedge SCK)) (1.5))
+    (HOLD WPNeg     (COND sdro_quad_io2 (posedge SCK)) (3))
+    (HOLD WPNeg     (COND ddro_quad_io2 (posedge SCK)) (1.5))
+    (HOLD WPNeg     (COND ddro_quad_io2 (negedge SCK)) (1.5))
+    (HOLD RESETNeg  (COND sdro_quad_io3 (posedge SCK)) (3))
+    (HOLD RESETNeg  (COND ddro_quad_io3 (posedge SCK)) (1.5))
+    (HOLD RESETNeg  (COND ddro_quad_io3 (negedge SCK)) (1.5))
+    (HOLD WPNeg     (COND wr_prot       (posedge CSNeg)) (100))
+    (HOLD CSNeg     (COND reset_act     (negedge RESETNeg)) (35000))
+
+    (WIDTH  (COND  rd        (posedge SCK))  (10))
+    (WIDTH  (COND  rd        (negedge SCK))  (10))
+    (WIDTH  (COND  fast_rd   (negedge SCK))  (3.75))
+    (WIDTH  (COND  fast_rd   (posedge SCK))  (3.75))
+    (WIDTH  (COND  ddrd      (posedge SCK))  (6.25))
+    (WIDTH  (COND  ddrd      (negedge SCK))  (6.25))
+    (WIDTH  (COND  RD_EQU_1  (posedge CSNeg))  (10))
+    (WIDTH  (COND  QRD_EQU_1 (posedge CSNeg))  (20))
+    (WIDTH  (COND  RD_EQU_0  (posedge CSNeg))  (50))
+    (WIDTH  (COND  reset_act (negedge RESETNeg)) (200))
+    (WIDTH  (COND  reset_act (posedge RESETNeg)) (50))
+
+    (PERIOD (COND rd SCK) (20))
+    (PERIOD (COND fast_rd SCK) (7.52))
+    (PERIOD (COND ddrd SCK) (12.5))
+  ))
+ (CELL
+  (CELLTYPE "BUFFER")
+  (INSTANCE %LABEL%/BUF_DOutZ)
+  (DELAY (ABSOLUTE (DEVICE OUT (1)))))
+ (CELL
+  (CELLTYPE "BUFFER")
+  (INSTANCE %LABEL%/BUF_DOut)
+  (DELAY (ABSOLUTE (DEVICE OUT (1.5:4:6.5))))
+</TIMING></FMFTIME>
+</BODY></FTML>

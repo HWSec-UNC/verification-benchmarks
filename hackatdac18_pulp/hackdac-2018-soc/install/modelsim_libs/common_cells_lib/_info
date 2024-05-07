@@ -1,0 +1,275 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/grads/p/prh537/hackdac/pulpissimo/sim
+vclock_divider
+Z1 DXx6 sv_std 3 std 0 22 >9az<^>2ff9DAl3OFGaAf1
+Z2 !s110 1527803013
+!i10b 1
+!s100 LT<m27MDKWg3LYMK6hnSa3
+IUl18WgNF[z_d]=3OJhG5j2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+!s105 clock_divider_sv_unit
+S1
+R0
+Z4 w1527484279
+8../ips/common_cells/clock_divider.sv
+F../ips/common_cells/clock_divider.sv
+Z5 L0 43
+Z6 OL;L;10.7;67
+r1
+!s85 0
+31
+Z7 !s108 1527803013.000000
+!s107 ../ips/common_cells/clock_divider_counter.sv|../ips/common_cells/clock_divider.sv|../ips/common_cells/pulp_sync.sv|../ips/common_cells/pulp_sync_wedge.sv|../ips/common_cells/edge_propagator.sv|../ips/common_cells/edge_propagator_rx.sv|../ips/common_cells/edge_propagator_tx.sv|../ips/common_cells/rstgen.sv|../ips/common_cells/onehot_to_bin.sv|../ips/common_cells/generic_LFSR_8bit.sv|../ips/common_cells/generic_fifo.sv|
+Z8 !s90 -quiet|-sv|-work|/home/grads/p/prh537/hackdac/pulpissimo/install/modelsim_libs/common_cells_lib|-suppress|2583|../ips/common_cells/generic_fifo.sv|../ips/common_cells/generic_LFSR_8bit.sv|../ips/common_cells/onehot_to_bin.sv|../ips/common_cells/rstgen.sv|../ips/common_cells/edge_propagator_tx.sv|../ips/common_cells/edge_propagator_rx.sv|../ips/common_cells/edge_propagator.sv|../ips/common_cells/pulp_sync_wedge.sv|../ips/common_cells/pulp_sync.sv|../ips/common_cells/clock_divider.sv|../ips/common_cells/clock_divider_counter.sv|
+!i113 0
+Z9 o-suppress 2583 -quiet -sv -work /home/grads/p/prh537/hackdac/pulpissimo/install/modelsim_libs/common_cells_lib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z10 tCvgOpt 0
+vclock_divider_counter
+R1
+R2
+!i10b 1
+!s100 =9EUM9NhP^N<be;HnOfW^0
+Im?SNoSa=<@fPmZ[RWb9LR1
+R3
+!s105 clock_divider_counter_sv_unit
+S1
+R0
+R4
+8../ips/common_cells/clock_divider_counter.sv
+F../ips/common_cells/clock_divider_counter.sv
+R5
+R6
+r1
+!s85 0
+31
+R7
+Z11 !s107 ../ips/common_cells/clock_divider_counter.sv|../ips/common_cells/clock_divider.sv|../ips/common_cells/pulp_sync.sv|../ips/common_cells/pulp_sync_wedge.sv|../ips/common_cells/edge_propagator.sv|../ips/common_cells/edge_propagator_rx.sv|../ips/common_cells/edge_propagator_tx.sv|../ips/common_cells/rstgen.sv|../ips/common_cells/onehot_to_bin.sv|../ips/common_cells/generic_LFSR_8bit.sv|../ips/common_cells/generic_fifo.sv|
+R8
+!i113 0
+R9
+R10
+vedge_propagator
+R1
+R2
+!i10b 1
+!s100 V65aNiZ_WATb=MOclYMT23
+I;?RoOzA2IU9aR<8G;6V]=0
+R3
+!s105 edge_propagator_sv_unit
+S1
+R0
+R4
+8../ips/common_cells/edge_propagator.sv
+F../ips/common_cells/edge_propagator.sv
+Z12 L0 13
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 0
+R9
+R10
+vedge_propagator_rx
+R1
+R2
+!i10b 1
+!s100 e?5JSMYHlz7;LhlZ?E50=3
+I^4`0lRmdLfBX0Nj[gX1m[0
+R3
+!s105 edge_propagator_rx_sv_unit
+S1
+R0
+R4
+8../ips/common_cells/edge_propagator_rx.sv
+F../ips/common_cells/edge_propagator_rx.sv
+R12
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 0
+R9
+R10
+vedge_propagator_tx
+R1
+R2
+!i10b 1
+!s100 ed3jRg][TXj4iA_^_STBV1
+I:XZIaM<`HKzU>9:20F57b3
+R3
+!s105 edge_propagator_tx_sv_unit
+S1
+R0
+R4
+8../ips/common_cells/edge_propagator_tx.sv
+F../ips/common_cells/edge_propagator_tx.sv
+R12
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 0
+R9
+R10
+vgeneric_fifo
+R1
+R2
+!i10b 1
+!s100 Z`bOWfSb^iW6WLZQJg^]B1
+I@e:mRYk]5fn58emTV40F?3
+R3
+!s105 generic_fifo_sv_unit
+S1
+R0
+R4
+8../ips/common_cells/generic_fifo.sv
+F../ips/common_cells/generic_fifo.sv
+R12
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 0
+R9
+R10
+vgeneric_LFSR_8bit
+R1
+R2
+!i10b 1
+!s100 5^8K:CS<IJG<hcUih`_dH0
+I;=I5Engl6B7G85;W7h6ZT3
+R3
+!s105 generic_LFSR_8bit_sv_unit
+S1
+R0
+R4
+8../ips/common_cells/generic_LFSR_8bit.sv
+F../ips/common_cells/generic_LFSR_8bit.sv
+R12
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 0
+R9
+R10
+ngeneric_@l@f@s@r_8bit
+vonehot_to_bin
+R1
+R2
+!i10b 1
+!s100 MdijH`Z>P6`ezaD_9@k1G1
+IUF?[j?hP54[H_84NON5gA3
+R3
+!s105 onehot_to_bin_sv_unit
+S1
+R0
+R4
+8../ips/common_cells/onehot_to_bin.sv
+F../ips/common_cells/onehot_to_bin.sv
+R12
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 0
+R9
+R10
+vpulp_sync
+R1
+R2
+!i10b 1
+!s100 S8MLkJg;6T9ak]GNhMNlM0
+ID_?MfY8faMm^fYO7Efm9e3
+R3
+!s105 pulp_sync_sv_unit
+S1
+R0
+R4
+8../ips/common_cells/pulp_sync.sv
+F../ips/common_cells/pulp_sync.sv
+R12
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 0
+R9
+R10
+vpulp_sync_wedge
+R1
+R2
+!i10b 1
+!s100 Ul0m=GRV=1=d5@lcLQC_T3
+I>92Kjz<[VGzMO`8EVIUWO0
+R3
+!s105 pulp_sync_wedge_sv_unit
+S1
+R0
+R4
+8../ips/common_cells/pulp_sync_wedge.sv
+F../ips/common_cells/pulp_sync_wedge.sv
+R12
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 0
+R9
+R10
+vrstgen
+R1
+R2
+!i10b 1
+!s100 YM5Y6[PoXia@<0OLBIN@J0
+IO_OGO]_C<5`[fcHV[8:a@0
+R3
+!s105 rstgen_sv_unit
+S1
+R0
+R4
+8../ips/common_cells/rstgen.sv
+F../ips/common_cells/rstgen.sv
+R12
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 0
+R9
+R10

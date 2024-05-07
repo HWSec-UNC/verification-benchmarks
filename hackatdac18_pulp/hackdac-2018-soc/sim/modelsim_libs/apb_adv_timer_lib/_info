@@ -1,0 +1,260 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/grads/p/prh537/hackdac/pulpissimo/sim
+vadv_timer_apb_if
+Z1 DXx6 sv_std 3 std 0 22 >9az<^>2ff9DAl3OFGaAf1
+Z2 !s110 1529613394
+!i10b 1
+!s100 RdWO2C6g6]>SLCDSfCh[o3
+I<;BgBDBY4=MLo><`5bBa[2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+!s105 adv_timer_apb_if_sv_unit
+S1
+R0
+Z4 w1527484273
+8../ips/apb/apb_adv_timer/adv_timer_apb_if.sv
+F../ips/apb/apb_adv_timer/adv_timer_apb_if.sv
+L0 102
+Z5 OL;L;10.7;67
+r1
+!s85 0
+31
+Z6 !s108 1529613394.000000
+!s107 ../ips/apb/apb_adv_timer/timer_module.sv|../ips/apb/apb_adv_timer/timer_cntrl.sv|../ips/apb/apb_adv_timer/apb_adv_timer.sv|../ips/apb/apb_adv_timer/prescaler.sv|../ips/apb/apb_adv_timer/input_stage.sv|../ips/apb/apb_adv_timer/up_down_counter.sv|../ips/apb/apb_adv_timer/out_filter.sv|../ips/apb/apb_adv_timer/lut_4x4.sv|../ips/apb/apb_adv_timer/comparator.sv|../ips/apb/apb_adv_timer/adv_timer_apb_if.sv|
+Z7 !s90 -quiet|-sv|-work|/home/grads/p/prh537/hackdac/pulpissimo/sim/modelsim_libs/apb_adv_timer_lib|-suppress|2583|+incdir+../ips/apb/apb_adv_timer/.|../ips/apb/apb_adv_timer/adv_timer_apb_if.sv|../ips/apb/apb_adv_timer/comparator.sv|../ips/apb/apb_adv_timer/lut_4x4.sv|../ips/apb/apb_adv_timer/out_filter.sv|../ips/apb/apb_adv_timer/up_down_counter.sv|../ips/apb/apb_adv_timer/input_stage.sv|../ips/apb/apb_adv_timer/prescaler.sv|../ips/apb/apb_adv_timer/apb_adv_timer.sv|../ips/apb/apb_adv_timer/timer_cntrl.sv|../ips/apb/apb_adv_timer/timer_module.sv|
+!i113 0
+Z8 o-suppress 2583 -quiet -sv -work /home/grads/p/prh537/hackdac/pulpissimo/sim/modelsim_libs/apb_adv_timer_lib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z9 !s92 -suppress 2583 -quiet -sv -work /home/grads/p/prh537/hackdac/pulpissimo/sim/modelsim_libs/apb_adv_timer_lib +incdir+../ips/apb/apb_adv_timer/. -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z10 tCvgOpt 0
+vapb_adv_timer
+R1
+Z11 !s110 1529613395
+!i10b 1
+!s100 VzNDNb1?lNH=YWLEH0nf21
+IdTkL?i6C[9JJMGQ>XVoNZ1
+R3
+!s105 apb_adv_timer_sv_unit
+S1
+R0
+R4
+8../ips/apb/apb_adv_timer/apb_adv_timer.sv
+F../ips/apb/apb_adv_timer/apb_adv_timer.sv
+Z12 L0 11
+R5
+r1
+!s85 0
+31
+R6
+Z13 !s107 ../ips/apb/apb_adv_timer/timer_module.sv|../ips/apb/apb_adv_timer/timer_cntrl.sv|../ips/apb/apb_adv_timer/apb_adv_timer.sv|../ips/apb/apb_adv_timer/prescaler.sv|../ips/apb/apb_adv_timer/input_stage.sv|../ips/apb/apb_adv_timer/up_down_counter.sv|../ips/apb/apb_adv_timer/out_filter.sv|../ips/apb/apb_adv_timer/lut_4x4.sv|../ips/apb/apb_adv_timer/comparator.sv|../ips/apb/apb_adv_timer/adv_timer_apb_if.sv|
+R7
+!i113 0
+R8
+R9
+R10
+vcomparator
+R1
+R2
+!i10b 1
+!s100 `mG?LS=Ni[Ig67GnK<0;43
+IRnJf>XehPI`EbXIMoW^<<2
+R3
+!s105 comparator_sv_unit
+S1
+R0
+R4
+8../ips/apb/apb_adv_timer/comparator.sv
+F../ips/apb/apb_adv_timer/comparator.sv
+L0 22
+R5
+r1
+!s85 0
+31
+R6
+R13
+R7
+!i113 0
+R8
+R9
+R10
+vinput_stage
+R1
+R2
+!i10b 1
+!s100 WV[5RQlDikB5h]_fOkJPH3
+I7BINPj4TgD[iC36YeXDk02
+R3
+!s105 input_stage_sv_unit
+S1
+R0
+R4
+8../ips/apb/apb_adv_timer/input_stage.sv
+F../ips/apb/apb_adv_timer/input_stage.sv
+R12
+R5
+r1
+!s85 0
+31
+R6
+R13
+R7
+!i113 0
+R8
+R9
+R10
+vlut_4x4
+R1
+R2
+!i10b 1
+!s100 JCA;ijQXEKCOLFI?EfRD[3
+I8j0WQ_VQeki9hXShTShGO0
+R3
+!s105 lut_4x4_sv_unit
+S1
+R0
+R4
+8../ips/apb/apb_adv_timer/lut_4x4.sv
+F../ips/apb/apb_adv_timer/lut_4x4.sv
+R12
+R5
+r1
+!s85 0
+31
+R6
+R13
+R7
+!i113 0
+R8
+R9
+R10
+vout_filter
+R1
+R2
+!i10b 1
+!s100 AL3RlI5P<SKKXY:6`iL1N3
+IHEb<;Lf;BKOb`i:M2U5LC2
+R3
+!s105 out_filter_sv_unit
+S1
+R0
+R4
+8../ips/apb/apb_adv_timer/out_filter.sv
+F../ips/apb/apb_adv_timer/out_filter.sv
+R12
+R5
+r1
+!s85 0
+31
+R6
+R13
+R7
+!i113 0
+R8
+R9
+R10
+vprescaler
+R1
+R2
+!i10b 1
+!s100 FUM]1<1MdK<4K;;lTa>8l1
+IA_Amcj<6G9g>hafY_E@BV2
+R3
+!s105 prescaler_sv_unit
+S1
+R0
+R4
+8../ips/apb/apb_adv_timer/prescaler.sv
+F../ips/apb/apb_adv_timer/prescaler.sv
+R12
+R5
+r1
+!s85 0
+31
+R6
+R13
+R7
+!i113 0
+R8
+R9
+R10
+vtimer_cntrl
+R1
+R11
+!i10b 1
+!s100 F]agVWY>Bo0TIUKo28hN40
+I@dULGV]mf@;>U;fS7B]`81
+R3
+!s105 timer_cntrl_sv_unit
+S1
+R0
+R4
+8../ips/apb/apb_adv_timer/timer_cntrl.sv
+F../ips/apb/apb_adv_timer/timer_cntrl.sv
+R12
+R5
+r1
+!s85 0
+31
+R6
+R13
+R7
+!i113 0
+R8
+R9
+R10
+vtimer_module
+R1
+R11
+!i10b 1
+!s100 m]dh;dz8Jc@QR8Dk[A^W>0
+I?:D0fCBaHDEU>55D0l`ML2
+R3
+!s105 timer_module_sv_unit
+S1
+R0
+R4
+8../ips/apb/apb_adv_timer/timer_module.sv
+F../ips/apb/apb_adv_timer/timer_module.sv
+R12
+R5
+r1
+!s85 0
+31
+R6
+R13
+R7
+!i113 0
+R8
+R9
+R10
+vup_down_counter
+R1
+R2
+!i10b 1
+!s100 OW5DRDR6@ciD4N1=A_]5C2
+IZ65Ck`i2ogPbK>3>d7`QJ2
+R3
+!s105 up_down_counter_sv_unit
+S1
+R0
+R4
+8../ips/apb/apb_adv_timer/up_down_counter.sv
+F../ips/apb/apb_adv_timer/up_down_counter.sv
+R12
+R5
+r1
+!s85 0
+31
+R6
+R13
+R7
+!i113 0
+R8
+R9
+R10

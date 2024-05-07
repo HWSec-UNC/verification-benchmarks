@@ -1,0 +1,312 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/grads/p/prh537/hackdac/pulpissimo/sim
+Yhwpe_ctrl_intf_periph
+Z1 DXx6 sv_std 3 std 0 22 >9az<^>2ff9DAl3OFGaAf1
+Z2 !s110 1529613396
+!i10b 1
+!s100 MC=XI_aJchLz6TznI?JJG2
+I=^6kc1I?LnVN;4;JIbJ]U0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+!s105 hwpe_ctrl_interfaces_sv_unit
+S1
+R0
+Z4 w1527484289
+8../ips/hwpe-ctrl/rtl/hwpe_ctrl_interfaces.sv
+F../ips/hwpe-ctrl/rtl/hwpe_ctrl_interfaces.sv
+Z5 L0 21
+Z6 OL;L;10.7;67
+r1
+!s85 0
+31
+Z7 !s108 1529613396.000000
+Z8 !s107 ../ips/hwpe-ctrl/rtl/hwpe_ctrl_ucode.sv|../ips/hwpe-ctrl/rtl/hwpe_ctrl_seq_mult.sv|../ips/hwpe-ctrl/rtl/hwpe_ctrl_slave.sv|../ips/hwpe-ctrl/rtl/hwpe_ctrl_regfile_latch.sv|../ips/hwpe-ctrl/rtl/hwpe_ctrl_regfile.sv|../ips/hwpe-ctrl/rtl/hwpe_ctrl_interfaces.sv|../ips/hwpe-ctrl/rtl/hwpe_ctrl_package.sv|
+Z9 !s90 -quiet|-sv|-work|/home/grads/p/prh537/hackdac/pulpissimo/sim/modelsim_libs/hwpe_ctrl_lib|+nowarnSVCHK|-suppress|2583|+incdir+../ips/hwpe-ctrl/rtl|../ips/hwpe-ctrl/rtl/hwpe_ctrl_package.sv|../ips/hwpe-ctrl/rtl/hwpe_ctrl_interfaces.sv|../ips/hwpe-ctrl/rtl/hwpe_ctrl_regfile.sv|../ips/hwpe-ctrl/rtl/hwpe_ctrl_regfile_latch.sv|../ips/hwpe-ctrl/rtl/hwpe_ctrl_slave.sv|../ips/hwpe-ctrl/rtl/hwpe_ctrl_seq_mult.sv|../ips/hwpe-ctrl/rtl/hwpe_ctrl_ucode.sv|
+!i113 0
+Z10 o-suppress 2583 -quiet -sv -work /home/grads/p/prh537/hackdac/pulpissimo/sim/modelsim_libs/hwpe_ctrl_lib +nowarnSVCHK -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z11 !s92 -suppress 2583 -quiet -sv -work /home/grads/p/prh537/hackdac/pulpissimo/sim/modelsim_libs/hwpe_ctrl_lib +nowarnSVCHK +incdir+../ips/hwpe-ctrl/rtl -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z12 tCvgOpt 0
+Xhwpe_ctrl_package
+R1
+R2
+!i10b 1
+!s100 6d44LS5TO^`9V`lbbZczE2
+Iz7on9z=LSLLH[dm;O9S0i3
+Vz7on9z=LSLLH[dm;O9S0i3
+S1
+R0
+R4
+8../ips/hwpe-ctrl/rtl/hwpe_ctrl_package.sv
+F../ips/hwpe-ctrl/rtl/hwpe_ctrl_package.sv
+Z13 L0 16
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vhwpe_ctrl_regfile
+R1
+Z14 DXx4 work 17 hwpe_ctrl_package 0 22 z7on9z=LSLLH[dm;O9S0i3
+DXx4 work 25 hwpe_ctrl_regfile_sv_unit 0 22 5XgD=G]MEMP5ekcn?O0en2
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 3k71e_k:5n5UjYQOm<V9[2
+IbC2kR>b4c^J22X<S;N8k]3
+!s105 hwpe_ctrl_regfile_sv_unit
+S1
+R0
+R4
+Z15 8../ips/hwpe-ctrl/rtl/hwpe_ctrl_regfile.sv
+Z16 F../ips/hwpe-ctrl/rtl/hwpe_ctrl_regfile.sv
+Z17 L0 18
+R6
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vhwpe_ctrl_regfile_latch
+R1
+R2
+!i10b 1
+!s100 JPQm^07DnJY`;9FU5h4FY1
+IlV@DdY0PHLEM3[jc:CTJY3
+R3
+!s105 hwpe_ctrl_regfile_latch_sv_unit
+S1
+R0
+R4
+8../ips/hwpe-ctrl/rtl/hwpe_ctrl_regfile_latch.sv
+F../ips/hwpe-ctrl/rtl/hwpe_ctrl_regfile_latch.sv
+R13
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+Xhwpe_ctrl_regfile_sv_unit
+R1
+R14
+V5XgD=G]MEMP5ekcn?O0en2
+r1
+!s85 0
+31
+!i10b 1
+!s100 CU<n^fWD>PPjgdeTTY7n_3
+I5XgD=G]MEMP5ekcn?O0en2
+!i103 1
+S1
+R0
+R4
+R15
+R16
+R13
+R6
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vhwpe_ctrl_seq_mult
+R1
+R14
+DXx4 work 26 hwpe_ctrl_seq_mult_sv_unit 0 22 O8jPGC;PV;U5S=o6QNn7Y1
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 gI38C97>hARQmB85@:??`0
+ICTP=o@Q_V8gK01XnJ6KGF2
+!s105 hwpe_ctrl_seq_mult_sv_unit
+S1
+R0
+R4
+Z18 8../ips/hwpe-ctrl/rtl/hwpe_ctrl_seq_mult.sv
+Z19 F../ips/hwpe-ctrl/rtl/hwpe_ctrl_seq_mult.sv
+R5
+R6
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+Xhwpe_ctrl_seq_mult_sv_unit
+R1
+R14
+VO8jPGC;PV;U5S=o6QNn7Y1
+r1
+!s85 0
+31
+!i10b 1
+!s100 A>j3c7]mHS6535?DgF8c41
+IO8jPGC;PV;U5S=o6QNn7Y1
+!i103 1
+S1
+R0
+R4
+R18
+R19
+Z20 L0 19
+R6
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vhwpe_ctrl_slave
+R1
+R14
+DXx4 work 23 hwpe_ctrl_slave_sv_unit 0 22 GGJggXWD1H87Jd22Ki00a3
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 9?0eRG?4XLLmP[2S<M>j50
+IRK`UM0k85=0gcIBcUWEl81
+!s105 hwpe_ctrl_slave_sv_unit
+S1
+R0
+R4
+Z21 8../ips/hwpe-ctrl/rtl/hwpe_ctrl_slave.sv
+Z22 F../ips/hwpe-ctrl/rtl/hwpe_ctrl_slave.sv
+R17
+R6
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+Xhwpe_ctrl_slave_sv_unit
+R1
+R14
+VGGJggXWD1H87Jd22Ki00a3
+r1
+!s85 0
+31
+!i10b 1
+!s100 5oDNff``BogIbjnDgekTg3
+IGGJggXWD1H87Jd22Ki00a3
+!i103 1
+S1
+R0
+R4
+R21
+R22
+R13
+R6
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vhwpe_ctrl_ucode
+R1
+R14
+DXx4 work 23 hwpe_ctrl_ucode_sv_unit 0 22 cS8^a_nP9Q2TP<H<GV1Ez0
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 CG<0HjaMo0Bn8Q86WQ;5E3
+IK077fC9U95^;4@<=bQIzP3
+!s105 hwpe_ctrl_ucode_sv_unit
+S1
+R0
+Z23 w1529613383
+Z24 8../ips/hwpe-ctrl/rtl/hwpe_ctrl_ucode.sv
+Z25 F../ips/hwpe-ctrl/rtl/hwpe_ctrl_ucode.sv
+L0 23
+R6
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+Xhwpe_ctrl_ucode_sv_unit
+R1
+R14
+VcS8^a_nP9Q2TP<H<GV1Ez0
+r1
+!s85 0
+31
+!i10b 1
+!s100 Ie0:og^bG`KTj^dAPRPJZ0
+IcS8^a_nP9Q2TP<H<GV1Ez0
+!i103 1
+S1
+R0
+R23
+R24
+R25
+R5
+R6
+R7
+R8
+R9
+!i113 0
+R10
+R11
+R12
+vtb_hwpe_ctrl_seq_mult
+R1
+R2
+!i10b 1
+!s100 `5ORQbEIS<NOj@:mi6WhT3
+IOkz;I<8iU[8gGkWL8LF4>1
+R3
+!s105 tb_hwpe_ctrl_seq_mult_sv_unit
+S1
+R0
+R4
+8../ips/hwpe-ctrl/tb/tb_hwpe_ctrl_seq_mult.sv
+F../ips/hwpe-ctrl/tb/tb_hwpe_ctrl_seq_mult.sv
+R20
+R6
+r1
+!s85 0
+31
+R7
+!s107 ../ips/hwpe-ctrl/tb/tb_hwpe_ctrl_seq_mult.sv|
+!s90 -quiet|-sv|-work|/home/grads/p/prh537/hackdac/pulpissimo/sim/modelsim_libs/hwpe_ctrl_lib|-suppress|2583|../ips/hwpe-ctrl/tb/tb_hwpe_ctrl_seq_mult.sv|
+!i113 0
+o-suppress 2583 -quiet -sv -work /home/grads/p/prh537/hackdac/pulpissimo/sim/modelsim_libs/hwpe_ctrl_lib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R12

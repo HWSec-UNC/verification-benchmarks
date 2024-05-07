@@ -1,0 +1,58 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/grads/p/prh537/hackdac/pulpissimo/sim
+vcamera_if
+Z1 DXx6 sv_std 3 std 0 22 >9az<^>2ff9DAl3OFGaAf1
+Z2 !s110 1527803015
+!i10b 1
+!s100 XZNmKU:52`5U^o5fz3V6H1
+Ij?ZAoWS;97c8bIM;Y7aMD2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+!s105 camera_if_sv_unit
+S1
+R0
+Z4 w1527484289
+8../ips/udma/udma_camera/rtl/camera_if.sv
+F../ips/udma/udma_camera/rtl/camera_if.sv
+L0 27
+Z5 OL;L;10.7;67
+r1
+!s85 0
+31
+Z6 !s108 1527803015.000000
+!s107 ../ips/udma/udma_camera/rtl/camera_if.sv|../ips/udma/udma_camera/rtl/camera_reg_if.sv|
+Z7 !s90 -quiet|-sv|-work|/home/grads/p/prh537/hackdac/pulpissimo/install/modelsim_libs/udma_camera_lib|-suppress|2583|../ips/udma/udma_camera/rtl/camera_reg_if.sv|../ips/udma/udma_camera/rtl/camera_if.sv|
+!i113 0
+Z8 o-suppress 2583 -quiet -sv -work /home/grads/p/prh537/hackdac/pulpissimo/install/modelsim_libs/udma_camera_lib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z9 tCvgOpt 0
+vcamera_reg_if
+R1
+R2
+!i10b 1
+!s100 XR2LH9=kjKR^LOa_PdOY52
+IWoEUYH;ccQ@RiVWHiUA0<2
+R3
+!s105 camera_reg_if_sv_unit
+S1
+R0
+R4
+8../ips/udma/udma_camera/rtl/camera_reg_if.sv
+F../ips/udma/udma_camera/rtl/camera_reg_if.sv
+L0 38
+R5
+r1
+!s85 0
+31
+R6
+Z10 !s107 ../ips/udma/udma_camera/rtl/camera_if.sv|../ips/udma/udma_camera/rtl/camera_reg_if.sv|
+R7
+!i113 0
+R8
+R9

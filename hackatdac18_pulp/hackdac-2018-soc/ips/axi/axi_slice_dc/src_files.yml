@@ -1,0 +1,14 @@
+axi_slice_dc:
+  files: [
+    axi_slice_dc_master.sv,
+    axi_slice_dc_slave.sv,
+    dc_data_buffer.sv,
+    dc_full_detector.v,
+    dc_synchronizer.v,
+    dc_token_ring_fifo_din.v,
+    dc_token_ring_fifo_dout.v,
+    dc_token_ring.v,
+    axi_slice_dc_master_wrap.sv,
+    axi_slice_dc_slave_wrap.sv,
+    axi_cdc.sv,
+  ]

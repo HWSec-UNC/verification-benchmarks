@@ -1,0 +1,72 @@
+// Copyright 2018 ETH Zurich and University of Bologna.
+// Copyright and related rights are licensed under the Solderpad Hardware
+// License, Version 0.51 (the "License"); you may not use this file except in
+// compliance with the License.  You may obtain a copy of the License at
+// http://solderpad.org/licenses/SHL-0.51. Unless required by applicable law
+// or agreed to in writing, software, hardware and materials distributed under
+// this License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR
+// CONDITIONS OF ANY KIND, either express or implied. See the License for the
+// specific language governing permissions and limitations under the License.
+
+///////////////////////////////////////////////////////////////////////////////
+//
+// Description: I2S WS signal generator
+//
+///////////////////////////////////////////////////////////////////////////////
+//
+// Authors    : Antonio Pullini (pullinia@iis.ee.ethz.ch)
+//
+///////////////////////////////////////////////////////////////////////////////
+
+
+module i2s_ws_gen
+(
+    input  logic                    sck_i,
+    input  logic                    rstn_i,
+    input  logic                    cfg_ws_en_i,
+
+    output logic                    ws_o,
+
+    input  logic              [4:0] cfg_data_size_i
+);
+
+    logic  [4:0] r_counter;
+
+    //Generate the internal WS signal
+    always_ff  @(posedge sck_i, negedge rstn_i)
+    begin
+        if (rstn_i == 1'b0)
+        begin
+            r_counter  <= 'h0;
+        end
+        else
+        begin
+            if (cfg_ws_en_i)
+            begin
+                if(r_counter == cfg_data_size_i)
+                    r_counter <= 'h0;
+                else
+                    r_counter <= r_counter + 1;
+            end
+        end
+    end
+
+    //Generate the internal WS signal
+    always_ff  @(negedge sck_i, negedge rstn_i)
+    begin
+        if (rstn_i == 1'b0)
+        begin
+            ws_o       <= 1'b0;
+        end
+        else
+        begin
+            if (cfg_ws_en_i)
+            begin
+                if(r_counter == cfg_data_size_i)
+                    ws_o <= ~ws_o;
+            end
+        end
+    end
+
+endmodule
+
