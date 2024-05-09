@@ -2,7 +2,7 @@
 
 The properties are listed in the table below
 
-| SystemVerilog Assertion   |      Description      | CWE-ID |
+| SystemVerilog Assertion   |     Bug Description      | CWE-ID |
 |----------|-------------|------|
 |{((\`SOC\_CTRL\_END\_ADDR <= \`UDMA\_START\_ADDR) && (\`SOC\_CTRL\_START\_ADDR >= \`UDMA\_END\_ADDR))}                                                                                                                                                                                     | Address range overlap between peripherals SPI Master and SoC.                                       | 1203 |
 | {(~((soc\_interconnect.TCDM\_data\_gnt\_DEM\_TO\_XBAR) >> 1) && ((soc\_interconnect.TCDM\_data\_add\_DEM\_TO\_XBAR >= 32'h1C00\_0000) && (soc\_interconnect.TCDM\_data\_add\_DEM\_TO\_XBAR <= 32'h1C08\_0000)))}<br>                                                                                 | Addresses for L2 memory is out of the specified range.                                              | 1203 |
