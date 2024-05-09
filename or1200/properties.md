@@ -71,5 +71,3 @@
 |p69|{(or1200_lsu.dcpu_dat_i == or1200_lsu.or1200_mem2reg.memdata) \|\| (rst == 1)}|Memory access|CWE-1202|No violations found|
 |p70|{(~((or1200_rf.rf_we == 1) && (or1200_rf.rf_addrw == 0))) \|\| (or1200_rf.rf_dataw == 0) \|\| (rst == 1)}|Memory access|CWE-1202|Violation found|
 |p71|{(~((or1200_ctrl.ex_insn & 'hFC0003CF) == 'hE00000C8)) \|\| (((operand_a << (6'd32 - {1'b0, operand_b[4:0]})) \| (operand_a >> operand_b[4:0])) == or1200_rf.rf_dataw) \|\| (or1200_rf.rf_dataw == 0) \|\| (rst == 1)}|Memory access|CWE-1202|Violation found|
-||||||
-||https://github.com/kakiryan/buggy-or1200||||
