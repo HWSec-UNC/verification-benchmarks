@@ -1,6 +1,6 @@
 | ID | Assertion | Bug Number | Bug Description | CWE-ID |
 |----| ---- | ---- | ---- | ---- |
-|p1|assert(\~(((j==6) && access\_ctrl\_i[i][7][priv\_lvl\_i])) draft|1|Processor access to CLINT grants it access to PLIC regardless of PLIC access configuration|CWE-1220|
+|p1|assert(\~(((j==6) && access\_ctrl\_i[i][7][priv\_lvl\_i]))|1|Processor access to CLINT grants it access to PLIC regardless of PLIC access configuration|CWE-1220|
 |p2|assert(\~(debug\_mode\_q && umode\_i) \|\| (riscv::PRIV\_LVL\_M))|5|Incorrect access control setting leaving debug enabled|CWE-1244|
 |p3|assert( ((csr\_we \|\| csr\_read) && (csr\_addr.address==riscv::CSR\_MEPC)) \|-> csr\_exception\_o.valid == 1'b1)|9|Execute machine level instructions from user mode|CWE-1262|
 |p4|assert {amo\_valid\_commit\_o \|-> \~commit\_ack\_o[1]}|22|Commit the second instruction even if the first is atomic instruction||
