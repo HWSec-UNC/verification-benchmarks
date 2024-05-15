@@ -1,0 +1,3 @@
+[submodule "or1200/buggy-or1200"]
+	path = or1200/buggy-or1200
+	url = git@github.com:kakiryan/buggy-or1200.git
