@@ -1,3 +1,9 @@
 [submodule "or1200/buggy-or1200"]
 	path = or1200/buggy-or1200
 	url = git@github.com:kakiryan/buggy-or1200.git
+[submodule "hackatdac18/hackdac-2018-soc"]
+	path = hackatdac18/hackdac-2018-soc
+	url = git@github.com:HACK-EVENT/hackatdac18.git
+[submodule "new"]
+	path = hackatdac18/hackdac-2018-soc
+	url = git@github.com:HACK-EVENT/hackatdac18.git
