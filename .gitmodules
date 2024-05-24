@@ -7,3 +7,6 @@
 [submodule "new"]
 	path = hackatdac18/hackdac-2018-soc
 	url = git@github.com:HACK-EVENT/hackatdac18.git
+[submodule "hackatdac19/design"]
+	path = hackatdac19/design
+	url = git@github.com:HWSec-UNC/hackatdac19.git
