@@ -104,4 +104,4 @@ analyze -sv fpga/src/axi_slice/src/axi_aw_buffer.sv
 analyze -sv src/register_interface/src/apb_to_reg.sv
 analyze -sv src/register_interface/src/reg_intf.sv
 
-elaborate
+elaborate -top ariane
