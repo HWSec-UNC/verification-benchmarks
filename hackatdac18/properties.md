@@ -19,3 +19,4 @@
 |p17|assert -name HACKDAC\_p27 {csr\_we\_int \|-> PULP\_SECURE}|27|Secure mode is not required to write to interrupt registers.|1220|Violation found|
 |p18|assert -name HACKDAC\_p28 {((jtag\_tap\_top.td\_i == 1 \|\| jtag\_tap\_top.td\_i == 0))}|28|JTAG interface is not password protected.|1262|No violations found|
 |p19|assert -name HACKDAC\_p29 {rst \|-> aes\_out == 0 && c == 0}|29|Output of MAC is not erased on reset.|325|Violation found|
+|p20|assert -name HACKDAC_p8 {('GPIO_START_ADDR == 32'h1A10_1000) && ('GPIO_END_ADDR == 32'h1A10_1FFF)}|6|Incorrect address range for APB allows for Memory Aliasing.|1257|Violation found|
