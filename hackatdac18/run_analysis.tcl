@@ -132,7 +132,7 @@ assert -name HACKDAC_p2 {(~((soc_interconnect.TCDM_data_gnt_DEM_TO_XBAR) >> 1) &
 
 assert -name HACKDAC_p3 {(~((riscv_core.cs_registers_i.priv_lvl_n == riscv_core.cs_registers_i.PRIV_LVL_M) && riscv_core.cs_registers_i.mstatus_n.mpp ==riscv_core.cs_registers_i.PRIV_LVL_U))}
 assert -name HACKDAC_p11 {(~( (riscv_core.debug_unit_i.dbg_halt != 1) && (riscv_core.debug_unit_i.rdata_sel_n == riscv_core.RD_DBGS)))}
-assert -name HACKDAC_p13 {(riscv_controller.id_stage_i.controller_i.ctrl_fsm_ns == riscv_controller.id_stage_i.controller_i.DECODE) |=> (riscv_controller.id_stage_i.controller_i.ctrl_fsm_ns != riscv_controller.id_stage_i.controller_i.DECODE)}
+assert -name HACKDAC_p13 {(riscv_core.id_stage_i.controller_i.ctrl_fsm_ns == riscv_core.id_stage_i.controller_i.DECODE) |=> (riscv_core.id_stage_i.controller_i.ctrl_fsm_ns != riscv_core.id_stage_i.controller_i.DECODE)}
 assert -name HACKDAC_p27 {riscv_core.cs_registers_i.csr_we_int |-> riscv_core.cs_registers_i.PULP_SECURE}
 
 assert -name HACKDAC_p4 {(apb_gpio.pwdata_l != apb_gpio.r_gpio_lock)}
@@ -155,7 +155,6 @@ assert -name HACKDAC_p15 {(rtc_clock.r_seconds < 8'h59)}
 #mux_func is active high reset in the wrapper
 assert -name HACKDAC_p20 {(~(mux_func.b == mux_func.aes_out))}
 assert -name HACKDAC_p21 {(~(mux_func.c == mux_func.temperature_out))}
-assert -name HACKDAC_p29 {~(mux_func.rst == 1) || ((mux_func.aes_out != 0) && (mux_func.c != 0))}
 assert -name HACKDAC_p29 {mux_func.rst |-> mux_func.aes_out == 0 && mux_func.c == 0}
 
 assert -name HACKDAC_p28 {((jtag_tap_top.td_i == 1 || jtag_tap_top.td_i == 0))}
