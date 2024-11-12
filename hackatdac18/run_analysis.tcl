@@ -124,6 +124,7 @@ reset -expression ~rstn_top
 
 
 assert -name HACKDAC_p1 {((`SOC_CTRL_END_ADDR <= `UDMA_START_ADDR) && (`SOC_CTRL_START_ADDR >= `UDMA_END_ADDR))}
+assert -name HACKDAC_p6 {(`GPIO_START_ADDR == 32'h1A10_1000) && (`GPIO_END_ADDR == 32'h1A10_1FFF)}
 assert -name HACKDAC_p8 {(((`GPIO_END_ADDR <= `UDMA_START_ADDR) && (`GPIO_START_ADDR >= `UDMA_END_ADDR)) && ((`SOC_CTRL_END_ADDR <= `UDMA_START_ADDR) && (`SOC_CTRL_START_ADDR >= `UDMA_END_ADDR)) && ((`SOC_CTRL_END_ADDR <= `GPIO_START_ADDR) && (`SOC_CTRL_START_ADDR >= `GPIO_END_ADDR)))}
 
 
@@ -136,9 +137,10 @@ assert -name HACKDAC_p13 {(riscv_core.id_stage_i.controller_i.ctrl_fsm_ns == ris
 assert -name HACKDAC_p27 {riscv_core.cs_registers_i.csr_we_int |-> riscv_core.cs_registers_i.PULP_SECURE}
 
 assert -name HACKDAC_p4 {(apb_gpio.pwdata_l != apb_gpio.r_gpio_lock)}
-assert -name HACKDAC_p5 {(apb_gpio.HRESETn) || (apb_gpio.r_gpio_lock ==0)}
+cover -name HACKDAC_p5 {~((apb_gpio.HRESETn) || (apb_gpio.r_gpio_lock ==0))}
 assert -name HACKDAC_p24 {((apb_gpio.HRESETn == 1) && (apb_gpio.PENABLE == 0))}
 
+assert -name HACKDAC_p14 {((( (riscv_core.ex_stage_i.alu_i.vector_mode_i == riscv_core.ex_stage_i.alu_i.VEC_MODE16) || (riscv_core.ex_stage_i.alu_i.vector_mode_i == riscv_core.ex_stage_i.alu_i.VEC_MODE8) ) |-> riscv_core.ex_stage_i.alu_i.adder_in_a[18] == 1'b0) )}
 
 assert -name HACKDAC_p7 {((axi_address_decoder_AR.outstanding_trans_i) && (axi_address_decoder_AR.CS == axi_address_decoder_AR.NS))}
 
