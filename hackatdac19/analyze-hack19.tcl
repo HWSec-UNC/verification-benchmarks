@@ -54,13 +54,10 @@ analyze -sv design/src/issue_read_operands.sv
 analyze -sv design/src/issue_stage.sv
 analyze -sv design/src/load_unit.sv
 
-#adding the store_unit module to be analyized because jasper is unable to locate it while analyzing load_store_unit. 
-#store_unit uses the amo_buffer so I am also analyzing that in jasper
 analyze -sv design/src/amo_buffer.sv
 analyze -sv design/src/store_unit.sv
 analyze -sv design/src/load_store_unit.sv
 
-#analyzing std_cache_subsystem, screen_arbitor, stream_mux, stream_demux, std_nbdcache.sv, std_icache.sv for std_cache
 analyze -sv design/src/ariane.sv
 analyze -sv design/src/common_cells/src/stream_arbiter.sv
 analyze -sv design/src/common_cells/src/stream_mux.sv
@@ -69,14 +66,11 @@ analyze -sv design/src/cache_subsystem/std_cache_subsystem.sv
 analyze -sv design/src/cache_subsystem/std_icache.sv
 analyze -sv design/src/cache_subsystem/std_nbdcache.sv
 
-#now analyzing cache_ctrl.sv, miss_handler.sv, tag_cmp.sv
 analyze -sv design/src/cache_subsystem/cache_ctrl.sv
 analyze -sv design/src/cache_subsystem/miss_handler.sv
 analyze -sv design/src/cache_subsystem/tag_cmp.sv
 
-#icache and nbdcache: lfsr_8bit
 analyze -sv design/src/common_cells/src/lfsr_8bit.sv
-#miss_handler: amo_amu 
 analyze -sv design/src/cache_subsystem/amo_alu.sv
 
 
@@ -134,43 +128,43 @@ analyze -sv design/fpga/src/axi_slice/src/axi_r_buffer.sv
 analyze -sv design/fpga/src/axi_slice/src/axi_aw_buffer.sv
 analyze -sv design/src/register_interface/src/apb_to_reg.sv
 analyze -sv design/src/register_interface/src/reg_intf.sv
+analyze -sv design/src/axi_node/src/axi_node_intf_wrap.sv
+analyze -sv design/src/axi_node/src/axi_node.sv
+analyze -sv design/src/axi_node/src/axi_request_block.sv
+analyze -sv design/src/axi_node/src/axi_AR_allocator.sv
+analyze -sv design/src/axi_node/src/axi_ArbitrationTree.sv
+analyze -sv design/src/axi_node/src/axi_RR_Flag_Req.sv
+analyze -sv design/src/axi_node/src/axi_AW_allocator.sv
+analyze -sv design/src/axi_node/src/axi_DW_allocator.sv
+analyze -sv design/src/axi_node/src/axi_multiplexer.sv
+analyze -sv design/src/axi_node/src/axi_address_decoder_BW.sv
+analyze -sv design/src/axi_node/src/axi_address_decoder_BR.sv
+analyze -sv design/src/axi_node/src/axi_regs_top.sv
+analyze -sv design/src/axi_node/src/axi_BW_allocator.sv
+analyze -sv design/src/axi_node/src/axi_BW_allocator.sv
+analyze -sv design/src/axi_node/src/axi_response_block.sv
+analyze -sv design/src/axi_node/src/axi_BR_allocator.sv
+analyze -sv design/src/axi_node/src/axi_address_decoder_AR.sv
+analyze -sv design/src/axi_node/src/axi_address_decoder_AW.sv
+analyze -sv design/src/axi_node/src/axi_address_decoder_DW.sv
+analyze -sv design/src/axi_node/src/axi_FanInPrimitive_Req.sv
 
-elaborate -top ariane
+analyze -sv design/src/axi_node/src/apb_regs_top.sv
+
+analyze -sv top_wrapper_dac19.sv
+elaborate -top top_wrapper_dac19
 
 clock clk_i -factor 1 -phase 1
 reset -expression ~rst_ni
 
-#No properties for bugs 1-2
-assert -name HACK@DAC19_p5 {~(csr_regfile_i.debug_mode_q && csr_regfile_i.umode_i) || (riscv::PRIV_LVL_M)}
-#No properties for bugs 6-8
-assert -name HACK@DAC19_p9 {((csr_regfile_i.csr_we || csr_regfile_i.csr_read) && (csr_regfile_i.csr_addr.address==riscv::CSR_MEPC) |-> csr_regfile_i.csr_exception_o.valid == 1'b1)}
-#No properties for bugs 10-16
-
-#P17: WIP
-
-#No properties for bugs 18-20
-
-assert -name HACK@DAC19_p21_wrong {~((commit_stage_i.csr_exception_i.valid && commit_stage_i.csr_exception_i.cause[63] && commit_stage_i.commit_instr_i[0].fu != commit_stage_i.CSR) || (commit_stage_i.amo_valid_commit_o))}
-
-assert -name HACK@DAC19_p21_another {(commit_stage_i.amo_valid_commit_o |-> (commit_stage_i.exception_o != commit_stage_i.csr_exception_i))}
-
-assert -name HACK@DAC19_p22 {(commit_stage_i.amo_valid_commit_o |-> ~commit_stage_i.commit_ack_o[1])}
-#p23 is on the top module-ariane
-assert -name HACK@DAC19_p23 {(amo_valid_commit |-> (flush_ctrl_if && flush_ctrl_id && flush_ctrl_ex))}
-
-assert -name HACK@DAC19_p24 {(csr_regfile_i.tvm_o |-> (csr_regfile_i.csr_rdata_o != csr_regfile_i.satp_q))}
-
-assert -name HACK@DAC19_p25 {(csr_regfile_i.tvm_o |-> (csr_regfile_i.satp_d != csr_regfile_i.csr_wdata_i))}
-#p26 is on the top module-ariane
-assert -name HACK@DAC19_p26 {(priv_lvl != $past(priv_lvl)) |-> (flush_ctrl_if && flush_ctrl_id && flush_ctrl_ex)}
-#No properties for bugs 27-28
-assert -name HACK@DAC19_p29 {((csr_regfile_i.instret_q != $past(csr_regfile_i.instret_q)) |-> csr_regfile_i.debug_mode_q)}
-#No properties for bugs 30-31
-assert -name HACK@DAC19_p32 {(controller_i.halt_o |-> controller_i.ex_valid_i)}
-#No properties for bugs 33-43
-#P44: WIP
-#No properties for bugs 45-48
-#P49: WIP
-#No properties for bug 50
-#P51: WIP
-#No properties for bug 52
+assert -name HACK@DAC19_p1 {~( (axi_node_intf_wrap_i.i_connectivity_map.runtime_j==6) && axi_node_intf_wrap_i.i_connectivity_map.access_ctrl_i[axi_node_intf_wrap_i.i_connectivity_map.runtime_i][7][axi_node_intf_wrap_i.i_connectivity_map.priv_lvl_i])}
+assert -name HACK@DAC19_p5 {~(ariane_i.csr_regfile_i.debug_mode_q && ariane_i.csr_regfile_i.umode_i) || (riscv::PRIV_LVL_M)}
+assert -name HACK@DAC19_p9 {((ariane_i.csr_regfile_i.csr_we || ariane_i.csr_regfile_i.csr_read) && (ariane_i.csr_regfile_i.csr_addr.address==riscv::CSR_MEPC) |-> ariane_i.csr_regfile_i.csr_exception_o.valid == 1'b1)}
+assert -name HACK@DAC19_p21 {(ariane_i.commit_stage_i.amo_valid_commit_o |-> (ariane_i.commit_stage_i.exception_o != ariane_i.commit_stage_i.csr_exception_i))}
+assert -name HACK@DAC19_p22 {(ariane_i.commit_stage_i.amo_valid_commit_o |-> ~ariane_i.commit_stage_i.commit_ack_o[1])}
+assert -name HACK@DAC19_p23 {(ariane_i.amo_valid_commit |-> (ariane_i.flush_ctrl_if && ariane_i.flush_ctrl_id && ariane_i.flush_ctrl_ex))}
+assert -name HACK@DAC19_p24 {(ariane_i.csr_regfile_i.tvm_o |-> (ariane_i.csr_regfile_i.csr_rdata_o != ariane_i.csr_regfile_i.satp_q))}
+assert -name HACK@DAC19_p25 {(ariane_i.csr_regfile_i.tvm_o |-> (ariane_i.csr_regfile_i.satp_d != ariane_i.csr_regfile_i.csr_wdata_i))}
+assert -name HACK@DAC19_p26 {(ariane_i.priv_lvl != $past(ariane_i.priv_lvl)) |-> (ariane_i.flush_ctrl_if && ariane_i.flush_ctrl_id && ariane_i.flush_ctrl_ex)}
+assert -name HACK@DAC19_p29 {((ariane_i.csr_regfile_i.instret_q != $past(ariane_i.csr_regfile_i.instret_q)) |-> ariane_i.csr_regfile_i.debug_mode_q)}
+assert -name HACK@DAC19_p32 {(ariane_i.controller_i.halt_o |-> ariane_i.controller_i.ex_valid_i)}
