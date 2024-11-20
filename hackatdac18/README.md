@@ -10,3 +10,6 @@ The properties.md table contains the properties we wrote for 20 of the 31 known 
 ```
 cat run_analysis.tcl properties.tcl > setup_and_properties.tcl
 ```
+2. Modifications for the riscv_core Module
+   * Modify the `riscv_core.sv` module by commenting out the `riscv_tracer` instantiation located in the file:  
+`verification-benchmarks/hackatdac18/ips/riscv/riscv_core.sv`, lines **1089–1153**.
