@@ -1,11 +1,11 @@
-assert -name HACK@DAC19\_p1 {\~( (axi\_node\_intf\_wrap\_i.i\_connectivity\_map.runtime\_j==6) && axi\_node\_intf\_wrap\_i.i\_connectivity\_map.access\_ctrl\_i[axi\_node\_intf\_wrap\_i.i\_connectivity\_map.runtime\_i][7][axi\_node\_intf\_wrap\_i.i\_connectivity\_map.priv\_lvl\_i])}
-assert -name HACK@DAC19\_p5 {\~(ariane\_i.csr\_regfile\_i.debug\_mode\_q && ariane\_i.csr\_regfile\_i.umode\_i) \|\| (riscv::PRIV\_LVL\_M)}
-assert -name HACK@DAC19\_p9 {((ariane\_i.csr\_regfile\_i.csr\_we \|\| ariane\_i.csr\_regfile\_i.csr\_read) && (ariane\_i.csr\_regfile\_i.csr\_addr.address==riscv::CSR\_MEPC) \|-> ariane\_i.csr\_regfile\_i.csr\_exception\_o.valid == 1'b1)}
-assert -name HACK@DAC19\_p21 {(ariane\_i.commit\_stage\_i.amo\_valid\_commit\_o \|-> (ariane\_i.commit\_stage\_i.exception\_o != ariane\_i.commit\_stage\_i.csr\_exception\_i))}
-assert -name HACK@DAC19\_p22 {(ariane\_i.commit\_stage\_i.amo\_valid\_commit\_o \|-> \~ariane\_i.commit\_stage\_i.commit\_ack\_o[1])}
-assert -name HACK@DAC19\_p23 {(ariane\_i.amo\_valid\_commit \|-> (ariane\_i.flush\_ctrl\_if && ariane\_i.flush\_ctrl\_id && ariane\_i.flush\_ctrl\_ex))}
-assert -name HACK@DAC19\_p24 {(ariane\_i.csr\_regfile\_i.tvm\_o \|-> (ariane\_i.csr\_regfile\_i.csr\_rdata\_o != ariane\_i.csr\_regfile\_i.satp\_q))}
-assert -name HACK@DAC19\_p25 {(ariane\_i.csr\_regfile\_i.tvm\_o \|-> (ariane\_i.csr\_regfile\_i.satp\_d != ariane\_i.csr\_regfile\_i.csr\_wdata\_i))}
-assert -name HACK@DAC19\_p26 {(ariane\_i.priv\_lvl != $past(ariane\_i.priv\_lvl)) \|-> (ariane\_i.flush\_ctrl\_if && ariane\_i.flush\_ctrl\_id && ariane\_i.flush\_ctrl\_ex)}
-assert -name HACK@DAC19\_p29 {((ariane\_i.csr\_regfile\_i.instret\_q != $past(ariane\_i.csr\_regfile\_i.instret\_q)) \|-> ariane\_i.csr\_regfile\_i.debug\_mode\_q)}
-assert -name HACK@DAC19\_p32 {(ariane\_i.controller\_i.halt\_o \|-> ariane\_i.controller\_i.ex\_valid\_i)}
+assert -name HACK@DAC19_p1 {~( (axi_node_intf_wrap_i.i_connectivity_map.runtime_j==6) && axi_node_intf_wrap_i.i_connectivity_map.access_ctrl_i[axi_node_intf_wrap_i.i_connectivity_map.runtime_i][7][axi_node_intf_wrap_i.i_connectivity_map.priv_lvl_i])}
+assert -name HACK@DAC19_p5 {~(ariane_i.csr_regfile_i.debug_mode_q && ariane_i.csr_regfile_i.umode_i) || (riscv::PRIV_LVL_M)}
+assert -name HACK@DAC19_p9 {((ariane_i.csr_regfile_i.csr_we || ariane_i.csr_regfile_i.csr_read) && (ariane_i.csr_regfile_i.csr_addr.address==riscv::CSR_MEPC) |-> ariane_i.csr_regfile_i.csr_exception_o.valid == 1'b1)}
+assert -name HACK@DAC19_p21 {(ariane_i.commit_stage_i.amo_valid_commit_o |-> (ariane_i.commit_stage_i.exception_o != ariane_i.commit_stage_i.csr_exception_i))}
+assert -name HACK@DAC19_p22 {(ariane_i.commit_stage_i.amo_valid_commit_o |-> ~ariane_i.commit_stage_i.commit_ack_o[1])}
+assert -name HACK@DAC19_p23 {(ariane_i.amo_valid_commit |-> (ariane_i.flush_ctrl_if && ariane_i.flush_ctrl_id && ariane_i.flush_ctrl_ex))}
+assert -name HACK@DAC19_p24 {(ariane_i.csr_regfile_i.tvm_o |-> (ariane_i.csr_regfile_i.csr_rdata_o != ariane_i.csr_regfile_i.satp_q))}
+assert -name HACK@DAC19_p25 {(ariane_i.csr_regfile_i.tvm_o |-> (ariane_i.csr_regfile_i.satp_d != ariane_i.csr_regfile_i.csr_wdata_i))}
+assert -name HACK@DAC19_p26 {(ariane_i.priv_lvl != $past(ariane_i.priv_lvl)) |-> (ariane_i.flush_ctrl_if && ariane_i.flush_ctrl_id && ariane_i.flush_ctrl_ex)}
+assert -name HACK@DAC19_p29 {((ariane_i.csr_regfile_i.instret_q != $past(ariane_i.csr_regfile_i.instret_q)) |-> ariane_i.csr_regfile_i.debug_mode_q)}
+assert -name HACK@DAC19_p32 {(ariane_i.controller_i.halt_o |-> ariane_i.controller_i.ex_valid_i)}
