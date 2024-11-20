@@ -17,6 +17,3 @@
 |p15|assert -name HACK@DAC21\_p84 {((dmi\_jtag\_i.dmi\_req\_ready && dmi\_jtag\_i.state\_q == dmi\_jtag\_i.Write) \|=> (dmi\_jtag\_i.state\_q == dmi\_jtag\_i.WaitWriteValid))}|84|jtag_dmi (the dmi stands for debug module interface). |Violation found|
 |p16|assert -name HACK@DAC21\_p95 {(\~(rsa\_wrapper\_i.rst\_ni && \~rsa\_wrapper\_i.rst\_13) \|-> (rsa\_wrapper\_i.msg\_out == 0))}|95|rsa_wrapper|Violation found|
 |p17|assert -name HACK@DAC21\_p96\_modified {(riscv\_peripherals\_i.ariane\_boot\_sel\_i \|-> riscv\_peripherals\_i.rom\_rdata\_linux)}|96|riscv_peripherals|Violation found|
-|p18|||||
-|p19|||||
-|p20|||||
