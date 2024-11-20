@@ -13,7 +13,7 @@ cat analyze-hack19.tcl properties.tcl > setup_and_properties.tcl
 
 2. Modifications for axi_node_intf_wrap and connectivity_mapping Modules
    * Modify the `axi_node_intf_wrap` module by commenting out the `generate` block located in the file:  
-`verification-benchmarks/hackatdac19/design/src/axi_node/src/axi_node_intf_wrap.sv`, lines **152–256**.
+`verification-benchmarks/hackatdac19/design/src/axi_node/src/axi_node_intf_wrap.sv`, lines **152–265**.
    * Update the `connectivity_mapping` module to include wire signals required for property verification in JasperGold (JG). Below is the modified `connectivity_mapping` module code: 
 ```systemverilog
 module connectivity_mapping #(
