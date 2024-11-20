@@ -84,5 +84,5 @@ dmi_jtag dmi_jtag_i(.clk_i(clk_i), .rst_ni(rst_ni), .testmode_i(testmode_i), .jt
 
 axi_node_intf_wrap#(.NB_MANAGER(8), .NB_SUBORDINATE(8), .NB_PRIV_LVL(8), .PRIV_LVL_WIDTH(8), 
 .AXI_ADDR_WIDTH(32), .AXI_DATA_WIDTH(32), .AXI_ID_WIDTH(10), .AXI_USER_WIDTH(0)) 
-axi_node_intf_wrap_i (.clk(clk_i), .rst_n(rst_ni), .test_en_i(test_en_i), .slave(subordinate), .master(primary), .*);
+axi_node_intf_wrap_i (clk_i, rst_ni, test_en_i, subordinate, primary, priv_lvl_i, access_ctrl_i, start_addr_i, end_addr_i);
 endmodule
