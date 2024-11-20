@@ -1,11 +1,11 @@
-assert(\~(((j==6) && access\_ctrl\_i[i][7][priv\_lvl\_i]))
-assert(\~(debug\_mode\_q && umode\_i) \|\| (riscv::PRIV\_LVL\_M))
-assert( ((csr\_we \|\| csr\_read) && (csr\_addr.address==riscv::CSR\_MEPC)) \|-> csr\_exception\_o.valid == 1'b1)
-assert(\~((csr\_exception\_i.valid && csr\_exception\_i.cause[63] && commit\_instr\_i[0].fu != CSR) \|\| (amo\_valid\_commit\_o)))  this is wrong. another idea: assert {amo\_valid\_commit\_o \|-> (exception\_o != csr\_exception\_i)}
-assert {amo\_valid\_commit\_o \|-> \~commit\_ack\_o[1]}
-assert {amo\_valid\_commit \|-> (flush\_ctrl\_if && flush\_ctrl\_id && flush\_ctrl\_ex)}
-assert {tvm\_o \|-> (csr\_rdata\_o != satp\_q)}
-assert {tvm\_o \|-> (satp\_d != csr\_wdata\_i)
-assert {(priv\_lvl != $past(priv\_lvl)) \|-> (flush\_ctrl\_if && flush\_ctrl\_id && flush\_ctrl\_ex)}
-assert {(instret\_q != $past(instret\_q)) \|-> debug\_mode\_q}
-assert {halt\_o \|-> ex\_valid\_i}
+assert -name HACK@DAC19\_p1 {\~( (axi\_node\_intf\_wrap\_i.i\_connectivity\_map.runtime\_j==6) && axi\_node\_intf\_wrap\_i.i\_connectivity\_map.access\_ctrl\_i[axi\_node\_intf\_wrap\_i.i\_connectivity\_map.runtime\_i][7][axi\_node\_intf\_wrap\_i.i\_connectivity\_map.priv\_lvl\_i])}
+assert -name HACK@DAC19\_p5 {\~(ariane\_i.csr\_regfile\_i.debug\_mode\_q && ariane\_i.csr\_regfile\_i.umode\_i) \|\| (riscv::PRIV\_LVL\_M)}
+assert -name HACK@DAC19\_p9 {((ariane\_i.csr\_regfile\_i.csr\_we \|\| ariane\_i.csr\_regfile\_i.csr\_read) && (ariane\_i.csr\_regfile\_i.csr\_addr.address==riscv::CSR\_MEPC) \|-> ariane\_i.csr\_regfile\_i.csr\_exception\_o.valid == 1'b1)}
+assert -name HACK@DAC19\_p21 {(ariane\_i.commit\_stage\_i.amo\_valid\_commit\_o \|-> (ariane\_i.commit\_stage\_i.exception\_o != ariane\_i.commit\_stage\_i.csr\_exception\_i))}
+assert -name HACK@DAC19\_p22 {(ariane\_i.commit\_stage\_i.amo\_valid\_commit\_o \|-> \~ariane\_i.commit\_stage\_i.commit\_ack\_o[1])}
+assert -name HACK@DAC19\_p23 {(ariane\_i.amo\_valid\_commit \|-> (ariane\_i.flush\_ctrl\_if && ariane\_i.flush\_ctrl\_id && ariane\_i.flush\_ctrl\_ex))}
+assert -name HACK@DAC19\_p24 {(ariane\_i.csr\_regfile\_i.tvm\_o \|-> (ariane\_i.csr\_regfile\_i.csr\_rdata\_o != ariane\_i.csr\_regfile\_i.satp\_q))}
+assert -name HACK@DAC19\_p25 {(ariane\_i.csr\_regfile\_i.tvm\_o \|-> (ariane\_i.csr\_regfile\_i.satp\_d != ariane\_i.csr\_regfile\_i.csr\_wdata\_i))}
+assert -name HACK@DAC19\_p26 {(ariane\_i.priv\_lvl != $past(ariane\_i.priv\_lvl)) \|-> (ariane\_i.flush\_ctrl\_if && ariane\_i.flush\_ctrl\_id && ariane\_i.flush\_ctrl\_ex)}
+assert -name HACK@DAC19\_p29 {((ariane\_i.csr\_regfile\_i.instret\_q != $past(ariane\_i.csr\_regfile\_i.instret\_q)) \|-> ariane\_i.csr\_regfile\_i.debug\_mode\_q)}
+assert -name HACK@DAC19\_p32 {(ariane\_i.controller\_i.halt\_o \|-> ariane\_i.controller\_i.ex\_valid\_i)}
