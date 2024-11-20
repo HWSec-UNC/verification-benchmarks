@@ -28,21 +28,21 @@ module connectivity_mapping #(
     output logic [NB_SUBORDINATE-1:0][NB_MANAGER-1:0] connectivity_map_o
   );
 
-  genvar i, j;
+  genvar i,j ;
   wire [NB_SUBORDINATE-1:0] runtime_i;
   wire [NB_MANAGER-1:0] runtime_j;
 
   generate
-    for (i = 0; i < NB_SUBORDINATE; i++) begin
-      for (j = 0; j < NB_MANAGER; j++) begin
-        assign runtime_i = i;
-        assign runtime_j = j;
-        assign connectivity_map_o[i][j] = 
-            access_ctrl_i[i][j][priv_lvl_i] || 
-            ((j == 6) && access_ctrl_i[i][7][priv_lvl_i]);
-      end
+    for (i=0; i<NB_SUBORDINATE; i++)
+    begin
+          assign runtime_i = i;
+        for (j=0; j<NB_MANAGER; j++)
+        begin
+          assign runtime_j = j;
+          assign connectivity_map_o[i][j] = access_ctrl_i[i][j][priv_lvl_i] || ((j==6) && access_ctrl_i[i][7][priv_lvl_i]) ;
+        end
     end
-  endgenerate
 
+  endgenerate
 endmodule
 ```
