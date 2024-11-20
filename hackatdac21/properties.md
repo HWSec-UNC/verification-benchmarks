@@ -1,5 +1,5 @@
 | ID | Assertion | Bug Number | Bug Description | Module | CWE-ID |
-|----| ---- | ---- | ---- | ~~~~ | ---- |
+|----| ---- | ---- | ---- | ---- | ---- |
 |p1|assert -name HACK@DAC21\_p1 {(\~dmi\_jtag\_i.trst\_ni \|-> dmi\_jtag\_i.pass\_check == 1'b0)}|1|JTAG password flag not reset properly|dmi_jtag|CWE-1239|
 |p2|assert -name HACK@DAC21\_p2 {(dmi\_jtag\_i.state\_q == dmi\_jtag\_i.Idle && dmi\_jtag\_i.state\_d == dmi\_jtag\_i.Write \|-> dmi\_jtag\_i.pass\_check == 1'b1)}|2|Able to write using JTAG without password|dmi_jtag|CWE-1245|
 |p3|assert -name HACK@DAC21\_p7 {(\~(ariane\_i.csr\_regfile\_i.debug\_mode\_q) \|\| (riscv::PRIV\_LVL\_M))}|7|Incorrect access control setting leaving debug enabled|csr_regfile|CWE-1220|
