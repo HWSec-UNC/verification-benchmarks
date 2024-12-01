@@ -1,0 +1,8 @@
+udma_qspi:
+  files: [
+    rtl/udma_spim_reg_if.sv,
+    rtl/udma_spim_ctrl.sv,
+    rtl/udma_spim_txrx.sv,
+    rtl/udma_spim_top.sv,
+  ]
+

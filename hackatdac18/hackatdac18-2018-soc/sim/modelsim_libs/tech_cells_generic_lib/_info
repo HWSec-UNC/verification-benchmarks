@@ -1,0 +1,658 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/grads/p/prh537/hackdac/pulpissimo/sim
+vcluster_clock_and2
+Z1 DXx6 sv_std 3 std 0 22 >9az<^>2ff9DAl3OFGaAf1
+Z2 !s110 1529613396
+!i10b 1
+!s100 f8`mQjlb2nL2oX7<DA?:k3
+IEPb2[YP5[:^1O9`I48bzU3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+!s105 cluster_clock_and2_sv_unit
+S1
+R0
+Z4 w1527484284
+8../ips/tech_cells_generic/cluster_clock_and2.sv
+F../ips/tech_cells_generic/cluster_clock_and2.sv
+Z5 L0 11
+Z6 OL;L;10.7;67
+r1
+!s85 0
+31
+Z7 !s108 1529613396.000000
+!s107 ../ips/tech_cells_generic/pad_functional.sv|../ips/tech_cells_generic/generic_memory.sv|../ips/tech_cells_generic/generic_rom.sv|../ips/tech_cells_generic/pulp_power_gating.sv|../ips/tech_cells_generic/pulp_clock_gating_async.sv|../ips/tech_cells_generic/cluster_clock_and2.sv|../ips/tech_cells_generic/cluster_level_shifter_out_clamp.sv|../ips/tech_cells_generic/cluster_level_shifter_out.sv|../ips/tech_cells_generic/cluster_level_shifter_in_clamp.sv|../ips/tech_cells_generic/cluster_level_shifter_in.sv|../ips/tech_cells_generic/cluster_clock_xor2.sv|../ips/tech_cells_generic/cluster_clock_mux2.sv|../ips/tech_cells_generic/cluster_clock_inverter.sv|../ips/tech_cells_generic/cluster_clock_buffer.sv|../ips/tech_cells_generic/pulp_clock_and2.sv|../ips/tech_cells_generic/pulp_level_shifter_out_clamp.sv|../ips/tech_cells_generic/pulp_level_shifter_out.sv|../ips/tech_cells_generic/pulp_level_shifter_in_clamp.sv|../ips/tech_cells_generic/pulp_level_shifter_in.sv|../ips/tech_cells_generic/pulp_buffer.sv|../ips/tech_cells_generic/pulp_clock_xor2.sv|../ips/tech_cells_generic/pulp_clock_inverter.sv|../ips/tech_cells_generic/pulp_clock_buffer.sv|../ips/tech_cells_generic/pulp_clock_mux2.sv|../ips/tech_cells_generic/pulp_clock_gating.sv|../ips/tech_cells_generic/cluster_clock_gating.sv|
+Z8 !s90 -quiet|-sv|-work|/home/grads/p/prh537/hackdac/pulpissimo/sim/modelsim_libs/tech_cells_generic_lib|-suppress|2583|../ips/tech_cells_generic/cluster_clock_gating.sv|../ips/tech_cells_generic/pulp_clock_gating.sv|../ips/tech_cells_generic/pulp_clock_mux2.sv|../ips/tech_cells_generic/pulp_clock_buffer.sv|../ips/tech_cells_generic/pulp_clock_inverter.sv|../ips/tech_cells_generic/pulp_clock_xor2.sv|../ips/tech_cells_generic/pulp_buffer.sv|../ips/tech_cells_generic/pulp_level_shifter_in.sv|../ips/tech_cells_generic/pulp_level_shifter_in_clamp.sv|../ips/tech_cells_generic/pulp_level_shifter_out.sv|../ips/tech_cells_generic/pulp_level_shifter_out_clamp.sv|../ips/tech_cells_generic/pulp_clock_and2.sv|../ips/tech_cells_generic/cluster_clock_buffer.sv|../ips/tech_cells_generic/cluster_clock_inverter.sv|../ips/tech_cells_generic/cluster_clock_mux2.sv|../ips/tech_cells_generic/cluster_clock_xor2.sv|../ips/tech_cells_generic/cluster_level_shifter_in.sv|../ips/tech_cells_generic/cluster_level_shifter_in_clamp.sv|../ips/tech_cells_generic/cluster_level_shifter_out.sv|../ips/tech_cells_generic/cluster_level_shifter_out_clamp.sv|../ips/tech_cells_generic/cluster_clock_and2.sv|../ips/tech_cells_generic/pulp_clock_gating_async.sv|../ips/tech_cells_generic/pulp_power_gating.sv|../ips/tech_cells_generic/generic_rom.sv|../ips/tech_cells_generic/generic_memory.sv|../ips/tech_cells_generic/pad_functional.sv|
+!i113 0
+Z9 o-suppress 2583 -quiet -sv -work /home/grads/p/prh537/hackdac/pulpissimo/sim/modelsim_libs/tech_cells_generic_lib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z10 tCvgOpt 0
+vcluster_clock_buffer
+R1
+R2
+!i10b 1
+!s100 glh;H;zcgl9Q1K^BjGM]@2
+I7ScfJUBMAQ2Z@G735<Dc[0
+R3
+!s105 cluster_clock_buffer_sv_unit
+S1
+R0
+R4
+8../ips/tech_cells_generic/cluster_clock_buffer.sv
+F../ips/tech_cells_generic/cluster_clock_buffer.sv
+R5
+R6
+r1
+!s85 0
+31
+R7
+Z11 !s107 ../ips/tech_cells_generic/pad_functional.sv|../ips/tech_cells_generic/generic_memory.sv|../ips/tech_cells_generic/generic_rom.sv|../ips/tech_cells_generic/pulp_power_gating.sv|../ips/tech_cells_generic/pulp_clock_gating_async.sv|../ips/tech_cells_generic/cluster_clock_and2.sv|../ips/tech_cells_generic/cluster_level_shifter_out_clamp.sv|../ips/tech_cells_generic/cluster_level_shifter_out.sv|../ips/tech_cells_generic/cluster_level_shifter_in_clamp.sv|../ips/tech_cells_generic/cluster_level_shifter_in.sv|../ips/tech_cells_generic/cluster_clock_xor2.sv|../ips/tech_cells_generic/cluster_clock_mux2.sv|../ips/tech_cells_generic/cluster_clock_inverter.sv|../ips/tech_cells_generic/cluster_clock_buffer.sv|../ips/tech_cells_generic/pulp_clock_and2.sv|../ips/tech_cells_generic/pulp_level_shifter_out_clamp.sv|../ips/tech_cells_generic/pulp_level_shifter_out.sv|../ips/tech_cells_generic/pulp_level_shifter_in_clamp.sv|../ips/tech_cells_generic/pulp_level_shifter_in.sv|../ips/tech_cells_generic/pulp_buffer.sv|../ips/tech_cells_generic/pulp_clock_xor2.sv|../ips/tech_cells_generic/pulp_clock_inverter.sv|../ips/tech_cells_generic/pulp_clock_buffer.sv|../ips/tech_cells_generic/pulp_clock_mux2.sv|../ips/tech_cells_generic/pulp_clock_gating.sv|../ips/tech_cells_generic/cluster_clock_gating.sv|
+R8
+!i113 0
+R9
+R10
+vcluster_clock_gating
+R1
+R2
+!i10b 1
+!s100 `2dkN4A1^3BOoLLBQ@Dee1
+IFCTL?RcKW90:BM<8ONI<=0
+R3
+!s105 cluster_clock_gating_sv_unit
+S1
+R0
+R4
+8../ips/tech_cells_generic/cluster_clock_gating.sv
+F../ips/tech_cells_generic/cluster_clock_gating.sv
+R5
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 0
+R9
+R10
+vcluster_clock_inverter
+R1
+R2
+!i10b 1
+!s100 5Mm]<_B`JKkX[7Lnh[DC<1
+IZzYQS[z?3`@WIVDF=AX^B3
+R3
+!s105 cluster_clock_inverter_sv_unit
+S1
+R0
+R4
+8../ips/tech_cells_generic/cluster_clock_inverter.sv
+F../ips/tech_cells_generic/cluster_clock_inverter.sv
+R5
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 0
+R9
+R10
+vcluster_clock_mux2
+R1
+R2
+!i10b 1
+!s100 XCL[zYLzChoVlXC<aW?X^1
+IRdFi>HBZVB;e93:lLzV]D1
+R3
+!s105 cluster_clock_mux2_sv_unit
+S1
+R0
+R4
+8../ips/tech_cells_generic/cluster_clock_mux2.sv
+F../ips/tech_cells_generic/cluster_clock_mux2.sv
+R5
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 0
+R9
+R10
+vcluster_clock_xor2
+R1
+R2
+!i10b 1
+!s100 ^9[]:YKn4Xn5id4OPG;Wl3
+Ib0gLBFR<N8]HifWz@@9ge1
+R3
+!s105 cluster_clock_xor2_sv_unit
+S1
+R0
+R4
+8../ips/tech_cells_generic/cluster_clock_xor2.sv
+F../ips/tech_cells_generic/cluster_clock_xor2.sv
+R5
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 0
+R9
+R10
+vcluster_level_shifter_in
+R1
+R2
+!i10b 1
+!s100 0LUc=]EW0^BR3PaCD6gQH3
+I;zDEnKGgLmLQk@@iCe=]31
+R3
+!s105 cluster_level_shifter_in_sv_unit
+S1
+R0
+R4
+8../ips/tech_cells_generic/cluster_level_shifter_in.sv
+F../ips/tech_cells_generic/cluster_level_shifter_in.sv
+R5
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 0
+R9
+R10
+vcluster_level_shifter_in_clamp
+R1
+R2
+!i10b 1
+!s100 _VlG?N?]oSRLnNA7?d;8@1
+IWgQ4m0^0F1`1MX46n^1@A0
+R3
+!s105 cluster_level_shifter_in_clamp_sv_unit
+S1
+R0
+R4
+8../ips/tech_cells_generic/cluster_level_shifter_in_clamp.sv
+F../ips/tech_cells_generic/cluster_level_shifter_in_clamp.sv
+R5
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 0
+R9
+R10
+vcluster_level_shifter_out
+R1
+R2
+!i10b 1
+!s100 HbV3<oUbU3g;R4H:``HPQ3
+I;>;LWfQ8hQPG0EVPOZUOi3
+R3
+!s105 cluster_level_shifter_out_sv_unit
+S1
+R0
+R4
+8../ips/tech_cells_generic/cluster_level_shifter_out.sv
+F../ips/tech_cells_generic/cluster_level_shifter_out.sv
+R5
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 0
+R9
+R10
+vcluster_level_shifter_out_clamp
+R1
+R2
+!i10b 1
+!s100 RmZ<:Cnf90VzP]@E6WM4d0
+IAz1`ge8KgaAZEX5Q?c`^o0
+R3
+!s105 cluster_level_shifter_out_clamp_sv_unit
+S1
+R0
+R4
+8../ips/tech_cells_generic/cluster_level_shifter_out_clamp.sv
+F../ips/tech_cells_generic/cluster_level_shifter_out_clamp.sv
+R5
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 0
+R9
+R10
+vgeneric_memory
+R1
+R2
+!i10b 1
+!s100 3EACTAOgjXJUNjn]g]1l;1
+IR5MaJ3g?hkjIU[ekATWaY2
+R3
+!s105 generic_memory_sv_unit
+S1
+R0
+R4
+8../ips/tech_cells_generic/generic_memory.sv
+F../ips/tech_cells_generic/generic_memory.sv
+R5
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 0
+R9
+R10
+vgeneric_rom
+R1
+R2
+!i10b 1
+!s100 BeaXmhfPICegiM^PCE?P;2
+IoS>@EMfkZHT=GCc:Cc[Y81
+R3
+!s105 generic_rom_sv_unit
+S1
+R0
+w1528916643
+8../ips/tech_cells_generic/generic_rom.sv
+F../ips/tech_cells_generic/generic_rom.sv
+R5
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 0
+R9
+R10
+vpad_functional_pd
+R1
+R2
+!i10b 1
+!s100 g2k[ZM77XdI^KFHP:l]992
+I2SF?1Xg^aOS@DD9FPW0mC2
+R3
+Z12 !s105 pad_functional_sv_unit
+S1
+R0
+R4
+Z13 8../ips/tech_cells_generic/pad_functional.sv
+Z14 F../ips/tech_cells_generic/pad_functional.sv
+L0 12
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 0
+R9
+R10
+vpad_functional_pu
+R1
+R2
+!i10b 1
+!s100 L31TDkh0WL6_:4D2jadBW2
+IVB5^3F6S>A5IAZHZEL[G50
+R3
+R12
+S1
+R0
+R4
+R13
+R14
+L0 49
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 0
+R9
+R10
+vpulp_buffer
+R1
+R2
+!i10b 1
+!s100 FXQ`8bcaiEhTARhLTfmEJ2
+IGamHkZE;;bOh;<g;NhH<L2
+R3
+!s105 pulp_buffer_sv_unit
+S1
+R0
+R4
+8../ips/tech_cells_generic/pulp_buffer.sv
+F../ips/tech_cells_generic/pulp_buffer.sv
+R5
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 0
+R9
+R10
+vpulp_clock_and2
+R1
+R2
+!i10b 1
+!s100 ZOND3U;b@@NE_<Q0=8n0;0
+InnN;XbnmXN3fAdE3B]K0i0
+R3
+!s105 pulp_clock_and2_sv_unit
+S1
+R0
+R4
+8../ips/tech_cells_generic/pulp_clock_and2.sv
+F../ips/tech_cells_generic/pulp_clock_and2.sv
+R5
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 0
+R9
+R10
+vpulp_clock_buffer
+R1
+R2
+!i10b 1
+!s100 V@87XoCa^4_^KDmbD0Z0_2
+Ib93@gMa9:<]A>a^IzEYjm3
+R3
+!s105 pulp_clock_buffer_sv_unit
+S1
+R0
+R4
+8../ips/tech_cells_generic/pulp_clock_buffer.sv
+F../ips/tech_cells_generic/pulp_clock_buffer.sv
+R5
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 0
+R9
+R10
+vpulp_clock_gating
+R1
+R2
+!i10b 1
+!s100 jCF^RAE@cck@1^E8dA5Fb3
+I?dC6S4:zXlBj?B8Sl^FBU0
+R3
+!s105 pulp_clock_gating_sv_unit
+S1
+R0
+R4
+8../ips/tech_cells_generic/pulp_clock_gating.sv
+F../ips/tech_cells_generic/pulp_clock_gating.sv
+R5
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 0
+R9
+R10
+vpulp_clock_gating_async
+R1
+R2
+!i10b 1
+!s100 NIeCYAiz5kDNSJ^Yif__M1
+IfShSSoXe4TKD@GK93B2cL3
+R3
+!s105 pulp_clock_gating_async_sv_unit
+S1
+R0
+R4
+8../ips/tech_cells_generic/pulp_clock_gating_async.sv
+F../ips/tech_cells_generic/pulp_clock_gating_async.sv
+R5
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 0
+R9
+R10
+vpulp_clock_inverter
+R1
+R2
+!i10b 1
+!s100 O8<PUY2392IV[IP5lT4^]2
+IJDM0HfV0KSFmTh4>5GmL<0
+R3
+!s105 pulp_clock_inverter_sv_unit
+S1
+R0
+R4
+8../ips/tech_cells_generic/pulp_clock_inverter.sv
+F../ips/tech_cells_generic/pulp_clock_inverter.sv
+R5
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 0
+R9
+R10
+vpulp_clock_mux2
+R1
+R2
+!i10b 1
+!s100 @[o1JAPGzePaHJ4GYQXK71
+Iea10MlA1PL9?jFS9IVj]G2
+R3
+!s105 pulp_clock_mux2_sv_unit
+S1
+R0
+R4
+8../ips/tech_cells_generic/pulp_clock_mux2.sv
+F../ips/tech_cells_generic/pulp_clock_mux2.sv
+R5
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 0
+R9
+R10
+vpulp_clock_xor2
+R1
+R2
+!i10b 1
+!s100 n8A:icSWXF7HM_Bk`?lHg1
+I8E8F=X4kRg>La>8@WO5?e0
+R3
+!s105 pulp_clock_xor2_sv_unit
+S1
+R0
+R4
+8../ips/tech_cells_generic/pulp_clock_xor2.sv
+F../ips/tech_cells_generic/pulp_clock_xor2.sv
+R5
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 0
+R9
+R10
+vpulp_level_shifter_clamp_out
+R1
+R2
+!i10b 1
+!s100 F^jmhQClRWNKOiI9?Ccjk2
+IIGHB4eF[zQ5iC9QMgY<R[3
+R3
+!s105 pulp_level_shifter_out_clamp_sv_unit
+S1
+R0
+R4
+8../ips/tech_cells_generic/pulp_level_shifter_out_clamp.sv
+F../ips/tech_cells_generic/pulp_level_shifter_out_clamp.sv
+R5
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 0
+R9
+R10
+vpulp_level_shifter_in
+R1
+R2
+!i10b 1
+!s100 aooW>R`Z>OOfj24EGn9^I0
+IT@IGLz2Njb9<z]f`^HzUd3
+R3
+!s105 pulp_level_shifter_in_sv_unit
+S1
+R0
+R4
+8../ips/tech_cells_generic/pulp_level_shifter_in.sv
+F../ips/tech_cells_generic/pulp_level_shifter_in.sv
+R5
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 0
+R9
+R10
+vpulp_level_shifter_in_clamp
+R1
+R2
+!i10b 1
+!s100 :3>bdm9V3XlDVAAS3:eL13
+IR8<OV9jzOf`nh1YejI`Z31
+R3
+!s105 pulp_level_shifter_in_clamp_sv_unit
+S1
+R0
+R4
+8../ips/tech_cells_generic/pulp_level_shifter_in_clamp.sv
+F../ips/tech_cells_generic/pulp_level_shifter_in_clamp.sv
+R5
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 0
+R9
+R10
+vpulp_level_shifter_out
+R1
+R2
+!i10b 1
+!s100 LT353f`aVBWIbi4lR@G3l3
+I>mLH?3NDfCE>7d>58HlKZ3
+R3
+!s105 pulp_level_shifter_out_sv_unit
+S1
+R0
+R4
+8../ips/tech_cells_generic/pulp_level_shifter_out.sv
+F../ips/tech_cells_generic/pulp_level_shifter_out.sv
+R5
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 0
+R9
+R10
+vpulp_power_gating
+R1
+R2
+!i10b 1
+!s100 VV<>Eg_LW[1V@:PUQEQ<93
+IOQl3KYl6PkMPlG5b2IEab3
+R3
+!s105 pulp_power_gating_sv_unit
+S1
+R0
+R4
+8../ips/tech_cells_generic/pulp_power_gating.sv
+F../ips/tech_cells_generic/pulp_power_gating.sv
+R5
+R6
+r1
+!s85 0
+31
+R7
+R11
+R8
+!i113 0
+R9
+R10

@@ -1,0 +1,7 @@
+# source tcl_files/config/vsim.tcl
+# ** Error: (vopt-13130) Failed to find design unit tb.
+#         Searched libraries:
+#             work
+# Optimization failed
+# /opt/coe/mentorgraphics/modelsim/modeltech/linux_x86_64/vopt failed.
+#  quit

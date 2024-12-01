@@ -1,0 +1,82 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/grads/p/prh537/hackdac/pulpissimo/sim
+vtimer_unit
+Z1 DXx6 sv_std 3 std 0 22 >9az<^>2ff9DAl3OFGaAf1
+Z2 !s110 1529613395
+!i10b 1
+!s100 UWJo14gEJX3]GKMK]^CE33
+IknFU]Il?U:fVQ=;GjBVGN2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+!s105 timer_unit_sv_unit
+S1
+R0
+Z4 w1527484278
+8../ips/timer_unit/timer_unit.sv
+F../ips/timer_unit/timer_unit.sv
+L0 37
+Z5 OL;L;10.7;67
+r1
+!s85 0
+31
+Z6 !s108 1529613395.000000
+!s107 ../ips/timer_unit/timer_unit_counter_presc.sv|../ips/timer_unit/timer_unit_counter.sv|../ips/timer_unit/timer_unit.sv|
+Z7 !s90 -quiet|-sv|-work|/home/grads/p/prh537/hackdac/pulpissimo/sim/modelsim_libs/timer_unit_lib|-suppress|2583|../ips/timer_unit/timer_unit.sv|../ips/timer_unit/timer_unit_counter.sv|../ips/timer_unit/timer_unit_counter_presc.sv|
+!i113 0
+Z8 o-suppress 2583 -quiet -sv -work /home/grads/p/prh537/hackdac/pulpissimo/sim/modelsim_libs/timer_unit_lib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z9 tCvgOpt 0
+vtimer_unit_counter
+R1
+R2
+!i10b 1
+!s100 OK8fcCl7O5n=?2h7_`bPj2
+ITacc_l?_XG>h@fC_@:95O3
+R3
+!s105 timer_unit_counter_sv_unit
+S1
+R0
+R4
+8../ips/timer_unit/timer_unit_counter.sv
+F../ips/timer_unit/timer_unit_counter.sv
+Z10 L0 13
+R5
+r1
+!s85 0
+31
+R6
+Z11 !s107 ../ips/timer_unit/timer_unit_counter_presc.sv|../ips/timer_unit/timer_unit_counter.sv|../ips/timer_unit/timer_unit.sv|
+R7
+!i113 0
+R8
+R9
+vtimer_unit_counter_presc
+R1
+R2
+!i10b 1
+!s100 O16e1GSO`80G;0EzPzc1d2
+IJzZFl9z@N<7K5a]m?^oBZ0
+R3
+!s105 timer_unit_counter_presc_sv_unit
+S1
+R0
+R4
+8../ips/timer_unit/timer_unit_counter_presc.sv
+F../ips/timer_unit/timer_unit_counter_presc.sv
+R10
+R5
+r1
+!s85 0
+31
+R6
+R11
+R7
+!i113 0
+R8
+R9

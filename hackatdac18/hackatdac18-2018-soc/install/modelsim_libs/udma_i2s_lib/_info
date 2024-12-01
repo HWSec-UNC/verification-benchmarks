@@ -1,0 +1,226 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/grads/p/prh537/hackdac/pulpissimo/sim
+vcic_comb
+Z1 DXx6 sv_std 3 std 0 22 >9az<^>2ff9DAl3OFGaAf1
+Z2 !s110 1527803015
+!i10b 1
+!s100 7_Cmj]^hQllB8EU;C9UHl1
+I4c6[>ELIcToG>09d>2D4W1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+!s105 cic_comb_sv_unit
+S1
+R0
+Z4 w1527484287
+8../ips/udma/udma_i2s/rtl/cic_comb.sv
+F../ips/udma/udma_i2s/rtl/cic_comb.sv
+Z5 L0 21
+Z6 OL;L;10.7;67
+r1
+!s85 0
+31
+Z7 !s108 1527803015.000000
+!s107 ../ips/udma/udma_i2s/rtl/udma_i2s_reg_if.sv|../ips/udma/udma_i2s/rtl/udma_i2s_2ch.sv|../ips/udma/udma_i2s/rtl/udma_i2s_multich.sv|../ips/udma/udma_i2s/rtl/cic_comb.sv|../ips/udma/udma_i2s/rtl/cic_integrator.sv|../ips/udma/udma_i2s/rtl/cic_top.sv|../ips/udma/udma_i2s/rtl/i2s_ws_gen.sv|../ips/udma/udma_i2s/rtl/i2s_rx_channel.sv|../ips/udma/udma_i2s/rtl/i2s_clk_gen.sv|
+Z8 !s90 -quiet|-sv|-work|/home/grads/p/prh537/hackdac/pulpissimo/install/modelsim_libs/udma_i2s_lib|-suppress|2583|../ips/udma/udma_i2s/rtl/i2s_clk_gen.sv|../ips/udma/udma_i2s/rtl/i2s_rx_channel.sv|../ips/udma/udma_i2s/rtl/i2s_ws_gen.sv|../ips/udma/udma_i2s/rtl/cic_top.sv|../ips/udma/udma_i2s/rtl/cic_integrator.sv|../ips/udma/udma_i2s/rtl/cic_comb.sv|../ips/udma/udma_i2s/rtl/udma_i2s_multich.sv|../ips/udma/udma_i2s/rtl/udma_i2s_2ch.sv|../ips/udma/udma_i2s/rtl/udma_i2s_reg_if.sv|
+!i113 0
+Z9 o-suppress 2583 -quiet -sv -work /home/grads/p/prh537/hackdac/pulpissimo/install/modelsim_libs/udma_i2s_lib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z10 tCvgOpt 0
+vcic_integrator
+R1
+R2
+!i10b 1
+!s100 cf;FhQdGl8K5Cl1EBb?a^2
+IdCoj[Jz^`P<YST4>QE:;H3
+R3
+!s105 cic_integrator_sv_unit
+S1
+R0
+R4
+8../ips/udma/udma_i2s/rtl/cic_integrator.sv
+F../ips/udma/udma_i2s/rtl/cic_integrator.sv
+Z11 L0 20
+R6
+r1
+!s85 0
+31
+R7
+Z12 !s107 ../ips/udma/udma_i2s/rtl/udma_i2s_reg_if.sv|../ips/udma/udma_i2s/rtl/udma_i2s_2ch.sv|../ips/udma/udma_i2s/rtl/udma_i2s_multich.sv|../ips/udma/udma_i2s/rtl/cic_comb.sv|../ips/udma/udma_i2s/rtl/cic_integrator.sv|../ips/udma/udma_i2s/rtl/cic_top.sv|../ips/udma/udma_i2s/rtl/i2s_ws_gen.sv|../ips/udma/udma_i2s/rtl/i2s_rx_channel.sv|../ips/udma/udma_i2s/rtl/i2s_clk_gen.sv|
+R8
+!i113 0
+R9
+R10
+vi2s_clk_gen
+R1
+R2
+!i10b 1
+!s100 c`VcP;DVZ:gF3DFR7KJ`V1
+IEjMJg_Qz]WRP31f@C:0Sa0
+R3
+!s105 i2s_clk_gen_sv_unit
+S1
+R0
+R4
+8../ips/udma/udma_i2s/rtl/i2s_clk_gen.sv
+F../ips/udma/udma_i2s/rtl/i2s_clk_gen.sv
+R5
+R6
+r1
+!s85 0
+31
+R7
+R12
+R8
+!i113 0
+R9
+R10
+vi2s_rx_channel
+R1
+R2
+!i10b 1
+!s100 _72jd1ITEHfzQ_RGIc2GD0
+ISSz4eOJ<b?VmH3lFBKI<^3
+R3
+!s105 i2s_rx_channel_sv_unit
+S1
+R0
+R4
+8../ips/udma/udma_i2s/rtl/i2s_rx_channel.sv
+F../ips/udma/udma_i2s/rtl/i2s_rx_channel.sv
+Z13 L0 22
+R6
+r1
+!s85 0
+31
+R7
+R12
+R8
+!i113 0
+R9
+R10
+vi2s_ws_gen
+R1
+R2
+!i10b 1
+!s100 L>=_lPBm69ZV[S7X?DLZV0
+I[C<ZK7f][IKJ=JISkW3CN2
+R3
+!s105 i2s_ws_gen_sv_unit
+S1
+R0
+R4
+8../ips/udma/udma_i2s/rtl/i2s_ws_gen.sv
+F../ips/udma/udma_i2s/rtl/i2s_ws_gen.sv
+R13
+R6
+r1
+!s85 0
+31
+R7
+R12
+R8
+!i113 0
+R9
+R10
+vudma_i2s_2ch
+R1
+R2
+!i10b 1
+!s100 N`mVOlIGGBa=O_iOFNkz^2
+I5NFWXG2==F:C;C=]P?Tb91
+R3
+!s105 udma_i2s_2ch_sv_unit
+S1
+R0
+R4
+8../ips/udma/udma_i2s/rtl/udma_i2s_2ch.sv
+F../ips/udma/udma_i2s/rtl/udma_i2s_2ch.sv
+Z14 L0 26
+R6
+r1
+!s85 0
+31
+R7
+R12
+R8
+!i113 0
+R9
+R10
+vudma_i2s_multich
+R1
+R2
+!i10b 1
+!s100 GTbK[`m3_d2>nGb0<;NE90
+Icj0X8TjgeNaShN:?5UkTJ3
+R3
+!s105 udma_i2s_multich_sv_unit
+S1
+R0
+R4
+8../ips/udma/udma_i2s/rtl/udma_i2s_multich.sv
+F../ips/udma/udma_i2s/rtl/udma_i2s_multich.sv
+R14
+R6
+r1
+!s85 0
+31
+R7
+R12
+R8
+!i113 0
+R9
+R10
+vudma_i2s_reg_if
+R1
+R2
+!i10b 1
+!s100 IQ12H?e2]YTgln6X[J:Qk1
+IQBH0]>>_;ahIDL^mi8DnM0
+R3
+!s105 udma_i2s_reg_if_sv_unit
+S1
+R0
+R4
+8../ips/udma/udma_i2s/rtl/udma_i2s_reg_if.sv
+F../ips/udma/udma_i2s/rtl/udma_i2s_reg_if.sv
+L0 39
+R6
+r1
+!s85 0
+31
+R7
+R12
+R8
+!i113 0
+R9
+R10
+vvarcic
+R1
+R2
+!i10b 1
+!s100 UJDEn7C^:;e`zl[a82YZ_3
+Ij2ejnV:GK>@o<B3R[2^2=2
+R3
+!s105 cic_top_sv_unit
+S1
+R0
+R4
+8../ips/udma/udma_i2s/rtl/cic_top.sv
+F../ips/udma/udma_i2s/rtl/cic_top.sv
+R11
+R6
+r1
+!s85 0
+31
+R7
+R12
+R8
+!i113 0
+R9
+R10

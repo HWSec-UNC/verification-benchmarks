@@ -1,0 +1,106 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/grads/p/prh537/hackdac/pulpissimo/sim
+vcam_vip
+Z1 DXx6 sv_std 3 std 0 22 >9az<^>2ff9DAl3OFGaAf1
+Z2 !s110 1529613397
+!i10b 1
+!s100 Fja?o0o:M1Ea;3T=^V:[D1
+I=LWB:ZSdIF`5h5lGd?9[S2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+!s105 cam_vip_sv_unit
+S1
+R0
+Z4 w1527484250
+8../rtl/vip/camera/cam_vip.sv
+F../rtl/vip/camera/cam_vip.sv
+L0 18
+Z5 OL;L;10.7;67
+r1
+!s85 0
+31
+Z6 !s108 1529613397.000000
+!s107 ../rtl/vip/camera/cam_vip.sv|../rtl/vip/uart_tb_rx.sv|../rtl/vip/spi_master_padframe.sv|
+Z7 !s90 -quiet|-sv|-work|/home/grads/p/prh537/hackdac/pulpissimo/sim/modelsim_libs/vip_lib|-suppress|2583|../rtl/vip/spi_master_padframe.sv|../rtl/vip/uart_tb_rx.sv|../rtl/vip/camera/cam_vip.sv|
+!i113 0
+Z8 o-suppress 2583 -quiet -sv -work /home/grads/p/prh537/hackdac/pulpissimo/sim/modelsim_libs/vip_lib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z9 tCvgOpt 0
+vgeneric_pad
+R1
+R2
+!i10b 1
+!s100 0[BhZCFe`57MR9RIn^RF;1
+IkGSXZmLOTO[JR15:XFbK81
+R3
+Z10 !s105 spi_master_padframe_sv_unit
+S1
+R0
+R4
+Z11 8../rtl/vip/spi_master_padframe.sv
+Z12 F../rtl/vip/spi_master_padframe.sv
+L0 23
+R5
+r1
+!s85 0
+31
+R6
+Z13 !s107 ../rtl/vip/camera/cam_vip.sv|../rtl/vip/uart_tb_rx.sv|../rtl/vip/spi_master_padframe.sv|
+R7
+!i113 0
+R8
+R9
+vspi_master_padframe
+R1
+R2
+!i10b 1
+!s100 QVh7><[K9Fe]5[Z7R1h^m2
+I>heY2I]7K;R4XR7T9?M:f3
+R3
+R10
+S1
+R0
+R4
+R11
+R12
+L0 36
+R5
+r1
+!s85 0
+31
+R6
+R13
+R7
+!i113 0
+R8
+R9
+vuart_tb_rx
+R1
+R2
+!i10b 1
+!s100 lCFX=97MJ0afLjLXW^4OZ1
+I:?m@5d2IdVg010eXdiKZ<0
+R3
+!s105 uart_tb_rx_sv_unit
+S1
+R0
+R4
+8../rtl/vip/uart_tb_rx.sv
+F../rtl/vip/uart_tb_rx.sv
+L0 21
+R5
+r1
+!s85 0
+31
+R6
+R13
+R7
+!i113 0
+R8
+R9

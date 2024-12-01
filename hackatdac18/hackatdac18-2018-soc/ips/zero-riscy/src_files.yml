@@ -1,0 +1,59 @@
+zeroriscy:
+  incdirs: [
+    include,
+  ]
+  files: [
+    include/zeroriscy_defines.sv,
+    include/zeroriscy_tracer_defines.sv,
+    zeroriscy_alu.sv,
+    zeroriscy_compressed_decoder.sv,
+    zeroriscy_controller.sv,
+    zeroriscy_cs_registers.sv,
+    zeroriscy_debug_unit.sv,
+    zeroriscy_decoder.sv,
+    zeroriscy_int_controller.sv,
+    zeroriscy_ex_block.sv,
+    zeroriscy_id_stage.sv,
+    zeroriscy_if_stage.sv,
+    zeroriscy_load_store_unit.sv,
+    zeroriscy_multdiv_slow.sv,
+    zeroriscy_multdiv_fast.sv,
+    zeroriscy_prefetch_buffer.sv,
+    zeroriscy_fetch_fifo.sv,
+    zeroriscy_core.sv,
+  ]
+zeroriscy_vip_rtl:
+  targets: [
+    rtl,
+  ]
+  incdirs: [
+    include,
+  ]
+  files: [
+    include/zeroriscy_defines.sv,
+    include/zeroriscy_tracer_defines.sv,
+    zeroriscy_tracer.sv,
+  ]
+zeroriscy_regfile_rtl:
+  targets: [
+    rtl,
+    tsmc55,
+    gf22
+  ]
+  incdirs: [
+    include,
+  ]
+  files: [
+    zeroriscy_register_file.sv,
+  ]
+zeroriscy_regfile_fpga:
+  targets: [
+    xilinx,
+  ]
+  incdirs: [
+    include,
+  ]
+  files: [
+    zeroriscy_register_file_ff.sv,
+  ]
+
