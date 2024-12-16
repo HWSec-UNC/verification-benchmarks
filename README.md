@@ -6,7 +6,7 @@ We encourage the community to contribute new properties and pull requests are we
 ## How to Cite
 Please cite our arXiv paper when using any of these properties.
 
-[Security Properties for Open-Source Hardware Designs](https://arxiv.org/pdf/2412.08769)
+[Security Properties for Open-Source Hardware Designs](https://arxiv.org/abs/2412.08769)
 
 @misc{rogers2024securitypropertiesopensourcehardware,
       title={Security Properties for Open-Source Hardware Designs}, 
@@ -15,5 +15,5 @@ Please cite our arXiv paper when using any of these properties.
       eprint={2412.08769},
       archivePrefix={arXiv},
       primaryClass={cs.CR},
-      url={https://arxiv.org/abs/2412.08769}, 
+      url={https://arxiv.org/abs/2412.08769 }, 
 }
