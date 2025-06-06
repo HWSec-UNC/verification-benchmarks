@@ -1,0 +1,3 @@
+[submodule "buggy-or1200"]
+	path = or1200/buggy-or1200
+	url = git@github.com:HWSec-UNC/buggy-or1200.git
