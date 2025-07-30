@@ -4,8 +4,17 @@ This repository contains security properties for the formal verification of open
 We encourage the community to contribute new properties and pull requests are welcome!
 
 ## How to Cite
-Please cite our arXiv paper when using any of these properties.
+Please cite our SecDev paper when using any of these properties.
 
+@inproceedings{rogers2025hardware,
+author = {Jayden Rogers and Niyaz Shakeel and Xiao Tan and Samantha Espinosa and Divya Mankani and Cade Chabra and Kaki Ryan and Cynthia Sturton},
+title = {Hardware Security Benchmarks for Open-Source SystemVerilog Designs},
+year = {2025},
+publisher = {IEEE},
+booktitle = {Proceedings of the Secure Development Conference (SecDev)}
+}
+
+A preprint version of the paper is available on arXiv: 
 [Security Properties for Open-Source Hardware Designs](https://arxiv.org/abs/2412.08769)
 
 @misc{rogers2024securitypropertiesopensourcehardware,
