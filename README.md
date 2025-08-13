@@ -7,7 +7,9 @@ We encourage the community to contribute new properties and pull requests are we
 Be sure to inclue submodules when cloning the repo:
 
 `git clone --recursive https://github.com/HWSec-UNC/verification-benchmarks.git`
+
 or
+
 `git clone --recursive git@github.com:HWSec-UNC/verification-benchmarks.git`
 
 ## How to Cite
