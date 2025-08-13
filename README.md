@@ -3,6 +3,11 @@ This repository contains security properties for the formal verification of open
 
 We encourage the community to contribute new properties and pull requests are welcome!
 
+## Getting Started
+Be sure to inclue submodules when cloning the repo:
+
+`git clone --recursive https://github.com/HWSec-UNC/verification-benchmarks.git`
+
 ## How to Cite
 Please cite our SecDev paper when using any of these properties.
 
