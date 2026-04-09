@@ -19,4 +19,4 @@
 |17|assert -name HACKDAC\_p21 {(\~(mux\_func.c == mux\_func.temperature\_out))}|21|Temperature sensor is muxed with the cryptography modules.|mux_func|1240|Violation found|
 |18|assert -name HACKDAC\_p27 {riscv\_core.cs\_registers\_i.csr\_we\_int \|-> riscv\_core.cs\_registers\_i.PULP\_SECURE}|27|Secure mode is not required to write to interrupt registers.|riscv_core|1220|Violation found|
 |19|assert -name HACKDAC\_p28 {((jtag\_tap\_top.td\_i == 1 \|\| jtag\_tap\_top.td\_i == 0))}|28|JTAG interface is not password protected.|jtag_tap_top|1262|No violations found|
-|20|assert -name HACKDAC\_p29 {rst \|-> aes\_out == 0 && c == 0}|29|Output of MAC is not erased on reset.|mux_func|325|Violation found|
+|20|assert -name HACKDAC\_p29 {mux\_func.rst \|=> mux\_func.aes\_out == 0 && mux\_func.c == 0 && mux\_func.sha\_out == 0 && mux\_func.md5\_out == 0}|29|Output of MAC is not erased on reset.|mux_func|226|Violation found|
