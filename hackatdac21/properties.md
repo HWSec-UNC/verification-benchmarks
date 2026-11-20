@@ -1,8 +1,6 @@
 | ID | Assertion | Bug Number | Bug Description | Module | CWE-ID | FPV Verification Results
 |----| ---- | ---- | ---- | ---- | ---- | ---- |
-|1|assert -name HACK@DAC21\_p1 {(\~dmi\_jtag\_i.trst\_ni \|-> dmi\_jtag\_i.pass\_check == 1'b0)}|1|JTAG password flag not reset properly|dmi_jtag|CWE-1239|No Violation Found|
 |2|assert -name HACK@DAC21\_p2 {(dmi\_jtag\_i.state\_q == dmi\_jtag\_i.Idle && dmi\_jtag\_i.state\_d == dmi\_jtag\_i.Write \|-> dmi\_jtag\_i.pass\_check == 1'b1)}|2|Able to write using JTAG without password|dmi_jtag|CWE-1245|Violation Found|
-|3|assert -name HACK@DAC21\_p7 {(\~(ariane\_i.csr\_regfile\_i.debug\_mode\_q) \|\| (riscv::PRIV\_LVL\_M))}|7|Incorrect access control setting leaving debug enabled|csr_regfile|CWE-1220|No Violation Found|
 |4|assert -name HACK@DAC21\_p14 {( (aes0\_wrapper\_i.aes.uut.validCounter - 1) == $next(aes0\_wrapper\_i.aes.uut.validCounter))}|14|Counter register in AES CTR mode does not increase|aes_192|CWE-1240|Violation Found|
 |5|assert -name HACK@DAC21\_p18 {(ariane\_i.csr\_regfile\_i.csr\_we && ariane\_i.csr\_regfile\_i.csr\_addr.address == riscv::CSR\_SIE) -> ariane\_i.csr\_regfile\_i.mie\_d == (ariane\_i.csr\_regfile\_i.mie\_q & \~ariane\_i.csr\_regfile\_i.mideleg\_q) \| (ariane\_i.csr\_regfile\_i.csr\_wdata & ariane\_i.csr\_regfile\_i.mideleg\_q)}|18|Access to CSRs from lower privilege level|csr_regfile|CWE-1262|Violation Found|
 |6|assert -name HACK@DAC21\_p30 {((dmi\_jtag\_i.pass\_mode) \|-> (dmi\_jtag\_i.pass\_data == dmi\_jtag\_i.data\_d))}|30|JTAG key is hardcoded|dmi_jtag|CWE-1329|Violation Found|
