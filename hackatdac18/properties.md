@@ -18,4 +18,4 @@
 |16|assert -name HACKDAC\_p16 {(adbg\_tap\_top.trstn\_pad\_i) \|\| (adbg\_tap\_top.correct==0)}|16|Reset for the advanced debug unit not operational.|adbg_tap_top|CWE-1419|Violation found|
 |17|assert -name HACKDAC\_p21 {(\~(mux\_func.c == mux\_func.temperature\_out))}|21|Temperature sensor is muxed with the cryptography modules.|mux_func|1240|Violation found|
 |18|assert -name HACKDAC\_p27 {riscv\_core.cs\_registers\_i.csr\_we\_int \|-> riscv\_core.cs\_registers\_i.PULP\_SECURE}|27|Secure mode is not required to write to interrupt registers.|riscv_core|1220|Violation found|
-|20|assert -name HACKDAC\_p29 {mux\_func.rst \|=> mux\_func.aes\_out == 0 && mux\_func.c == 0 && mux\_func.sha\_out == 0 && mux\_func.md5\_out == 0}|29|Output of MAC is not erased on reset.|mux_func|226|Violation found|
+|19|assert -name HACKDAC\_p29 {mux\_func.rst \|=> mux\_func.aes\_out == 0 && mux\_func.c == 0 && mux\_func.sha\_out == 0 && mux\_func.md5\_out == 0}|29|Output of MAC is not erased on reset.|mux_func|226|Violation found|
