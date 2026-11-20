@@ -4,6 +4,10 @@ This directory contains the design from the [HACK@DAC 2021 repo](https://github.
 
 The properties.md table contains the properties we wrote for 17 of the 99 known bugs in the design, along with their associated bug descriptions and CWE-ID. The bug numbers and bug descriptions come from the [HACK@DAC 2021 repo](https://github.com/HACK-EVENT/hackatdac21). In some cases, existing CWE entries pointed to one of these 17 known bugs, and we use that CWE-ID. Otherwise, we matched CWEs to bugs using our understanding of the bug and our reading of the CWE descriptions.
 
+## Properties P46 and P47
+
+Although P46 and P47 describe different security weaknesses, our analysis indicated that both involve the same buggy RTL logic (AES key exposure during debug mode). Therefore, the same assertion was used for both, although it does not distinguish between the two weaknesses.
+
 # Instructions to load the design in JG
 
 1. Concatenate the setuphack_21.tcl and properties.tcl files into a single file using the following command:
